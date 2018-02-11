@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AD4B83EE2027C04900D116BA /* h3_swift.h in Headers */ = {isa = PBXBuildFile; fileRef = AD4B83EC2027C04900D116BA /* h3_swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ADB917122030CCBD007CFF0B /* h3.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB917112030CCBD007CFF0B /* h3.swift */; };
+		ADB917122030CCBD007CFF0B /* h3-swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB917112030CCBD007CFF0B /* h3-swift.swift */; };
 		ADEA012920303A2B000C2FD2 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = ADEA005C20303A2B000C2FD2 /* .gitignore */; };
 		ADEA012A20303A2B000C2FD2 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = ADEA005D20303A2B000C2FD2 /* .travis.yml */; };
 		ADEA012B20303A2B000C2FD2 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = ADEA005E20303A2B000C2FD2 /* CHANGELOG.md */; };
@@ -200,7 +200,7 @@
 		AD4B83E92027C04800D116BA /* h3_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = h3_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD4B83EC2027C04900D116BA /* h3_swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = h3_swift.h; sourceTree = "<group>"; };
 		AD4B83ED2027C04900D116BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ADB917112030CCBD007CFF0B /* h3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = h3.swift; sourceTree = "<group>"; };
+		ADB917112030CCBD007CFF0B /* h3-swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "h3-swift.swift"; sourceTree = "<group>"; };
 		ADEA005C20303A2B000C2FD2 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		ADEA005D20303A2B000C2FD2 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 		ADEA005E20303A2B000C2FD2 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
@@ -419,7 +419,7 @@
 		AD4B83EB2027C04800D116BA /* h3-swift */ = {
 			isa = PBXGroup;
 			children = (
-				ADB917112030CCBD007CFF0B /* h3.swift */,
+				ADB917112030CCBD007CFF0B /* h3-swift.swift */,
 				AD4B83EC2027C04900D116BA /* h3_swift.h */,
 				AD4B83ED2027C04900D116BA /* Info.plist */,
 			);
@@ -1026,7 +1026,7 @@
 				ADEA018820303A2B000C2FD2 /* bbox.c in Sources */,
 				ADEA018A20303A2B000C2FD2 /* faceijk.c in Sources */,
 				ADEA015F20303A2B000C2FD2 /* h3ToHier.c in Sources */,
-				ADB917122030CCBD007CFF0B /* h3.swift in Sources */,
+				ADB917122030CCBD007CFF0B /* h3-swift.swift in Sources */,
 				ADEA017320303A2B000C2FD2 /* testKRing.c in Sources */,
 				ADEA018920303A2B000C2FD2 /* coordijk.c in Sources */,
 				ADEA018C20303A2B000C2FD2 /* h3Index.c in Sources */,
