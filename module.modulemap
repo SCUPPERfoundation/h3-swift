@@ -1,0 +1,4 @@
+module h3 [system][extern_c] {
+ header "h3api.h"
+ export *
+}
