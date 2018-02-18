@@ -12,7 +12,6 @@
 		ADEA012920303A2B000C2FD2 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = ADEA005C20303A2B000C2FD2 /* .gitignore */; };
 		ADEA012A20303A2B000C2FD2 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = ADEA005D20303A2B000C2FD2 /* .travis.yml */; };
 		ADEA012B20303A2B000C2FD2 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = ADEA005E20303A2B000C2FD2 /* CHANGELOG.md */; };
-		ADEA012C20303A2B000C2FD2 /* CMakeLists.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA005F20303A2B000C2FD2 /* CMakeLists.txt */; };
 		ADEA012D20303A2B000C2FD2 /* build_windows.md in Resources */ = {isa = PBXBuildFile; fileRef = ADEA006120303A2B000C2FD2 /* build_windows.md */; };
 		ADEA012E20303A2B000C2FD2 /* Doxyfile.in in Resources */ = {isa = PBXBuildFile; fileRef = ADEA006220303A2B000C2FD2 /* Doxyfile.in */; };
 		ADEA012F20303A2B000C2FD2 /* coordsystems.md in Resources */ = {isa = PBXBuildFile; fileRef = ADEA006420303A2B000C2FD2 /* coordsystems.md */; };
@@ -38,8 +37,6 @@
 		ADEA014320303A2B000C2FD2 /* restable.md in Resources */ = {isa = PBXBuildFile; fileRef = ADEA007920303A2B000C2FD2 /* restable.md */; };
 		ADEA014420303A2B000C2FD2 /* usage.md in Resources */ = {isa = PBXBuildFile; fileRef = ADEA007A20303A2B000C2FD2 /* usage.md */; };
 		ADEA014520303A2B000C2FD2 /* usecases.md in Resources */ = {isa = PBXBuildFile; fileRef = ADEA007B20303A2B000C2FD2 /* usecases.md */; };
-		ADEA014620303A2B000C2FD2 /* distance.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA007D20303A2B000C2FD2 /* distance.c */; };
-		ADEA014720303A2B000C2FD2 /* index.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA007E20303A2B000C2FD2 /* index.c */; };
 		ADEA014820303A2B000C2FD2 /* icosa.kml in Resources */ = {isa = PBXBuildFile; fileRef = ADEA008020303A2B000C2FD2 /* icosa.kml */; };
 		ADEA014920303A2B000C2FD2 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = ADEA008120303A2B000C2FD2 /* LICENSE */; };
 		ADEA014A20303A2B000C2FD2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = ADEA008220303A2B000C2FD2 /* README.md */; };
@@ -200,11 +197,11 @@
 		AD4B83E92027C04800D116BA /* h3_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = h3_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD4B83EC2027C04900D116BA /* h3_swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = h3_swift.h; sourceTree = "<group>"; };
 		AD4B83ED2027C04900D116BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD71F4F02030DE4900B92D8E /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		ADB917112030CCBD007CFF0B /* h3-swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "h3-swift.swift"; sourceTree = "<group>"; };
 		ADEA005C20303A2B000C2FD2 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		ADEA005D20303A2B000C2FD2 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 		ADEA005E20303A2B000C2FD2 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
-		ADEA005F20303A2B000C2FD2 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
 		ADEA006120303A2B000C2FD2 /* build_windows.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = build_windows.md; sourceTree = "<group>"; };
 		ADEA006220303A2B000C2FD2 /* Doxyfile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Doxyfile.in; sourceTree = "<group>"; };
 		ADEA006420303A2B000C2FD2 /* coordsystems.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = coordsystems.md; sourceTree = "<group>"; };
@@ -230,8 +227,6 @@
 		ADEA007920303A2B000C2FD2 /* restable.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = restable.md; sourceTree = "<group>"; };
 		ADEA007A20303A2B000C2FD2 /* usage.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = usage.md; sourceTree = "<group>"; };
 		ADEA007B20303A2B000C2FD2 /* usecases.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = usecases.md; sourceTree = "<group>"; };
-		ADEA007D20303A2B000C2FD2 /* distance.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = distance.c; sourceTree = "<group>"; };
-		ADEA007E20303A2B000C2FD2 /* index.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = index.c; sourceTree = "<group>"; };
 		ADEA008020303A2B000C2FD2 /* icosa.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icosa.kml; sourceTree = "<group>"; };
 		ADEA008120303A2B000C2FD2 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		ADEA008220303A2B000C2FD2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -402,6 +397,7 @@
 		AD4B83DF2027C04800D116BA = {
 			isa = PBXGroup;
 			children = (
+				AD71F4F02030DE4900B92D8E /* module.modulemap */,
 				ADEA005B20303A2B000C2FD2 /* h3 */,
 				AD4B83EB2027C04800D116BA /* h3-swift */,
 				AD4B83EA2027C04800D116BA /* Products */,
@@ -432,9 +428,7 @@
 				ADEA005C20303A2B000C2FD2 /* .gitignore */,
 				ADEA005D20303A2B000C2FD2 /* .travis.yml */,
 				ADEA005E20303A2B000C2FD2 /* CHANGELOG.md */,
-				ADEA005F20303A2B000C2FD2 /* CMakeLists.txt */,
 				ADEA006020303A2B000C2FD2 /* docs */,
-				ADEA007C20303A2B000C2FD2 /* examples */,
 				ADEA007F20303A2B000C2FD2 /* KML */,
 				ADEA008120303A2B000C2FD2 /* LICENSE */,
 				ADEA008220303A2B000C2FD2 /* README.md */,
@@ -492,15 +486,6 @@
 				ADEA007620303A2B000C2FD2 /* triEdge.png */,
 			);
 			path = images;
-			sourceTree = "<group>";
-		};
-		ADEA007C20303A2B000C2FD2 /* examples */ = {
-			isa = PBXGroup;
-			children = (
-				ADEA007D20303A2B000C2FD2 /* distance.c */,
-				ADEA007E20303A2B000C2FD2 /* index.c */,
-			);
-			path = examples;
 			sourceTree = "<group>";
 		};
 		ADEA007F20303A2B000C2FD2 /* KML */ = {
@@ -887,7 +872,6 @@
 				ADEA01C220303A2B000C2FD2 /* rand05cells.txt in Resources */,
 				ADEA01D020303A2B000C2FD2 /* rand12cells.txt in Resources */,
 				ADEA01AD20303A2B000C2FD2 /* bc14r13centers.txt in Resources */,
-				ADEA012C20303A2B000C2FD2 /* CMakeLists.txt in Resources */,
 				ADEA01D220303A2B000C2FD2 /* rand13cells.txt in Resources */,
 				ADEA01A020303A2B000C2FD2 /* bc05r15cells.txt in Resources */,
 				ADEA01DB20303A2B000C2FD2 /* res01ic.txt in Resources */,
@@ -1015,8 +999,6 @@
 				ADEA017720303A2B000C2FD2 /* testVertexGraph.c in Sources */,
 				ADEA017220303A2B000C2FD2 /* testHexRing.c in Sources */,
 				ADEA015120303A2B000C2FD2 /* kml.c in Sources */,
-				ADEA014720303A2B000C2FD2 /* index.c in Sources */,
-				ADEA014620303A2B000C2FD2 /* distance.c in Sources */,
 				ADEA015A20303A2B000C2FD2 /* hexRange.c in Sources */,
 				ADEA016E20303A2B000C2FD2 /* testH3ToGeoBoundary.c in Sources */,
 				ADEA015D20303A2B000C2FD2 /* h3ToGeoBoundaryHier.c in Sources */,
@@ -1181,6 +1163,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.scupper.h3-swift";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "${SRCROOT}";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1205,6 +1188,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.scupper.h3-swift";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_INCLUDE_PATHS = "${SRCROOT}";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
