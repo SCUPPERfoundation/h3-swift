@@ -9,39 +9,9 @@
 /* Begin PBXBuildFile section */
 		AD4B83EE2027C04900D116BA /* h3_swift.h in Headers */ = {isa = PBXBuildFile; fileRef = AD4B83EC2027C04900D116BA /* h3_swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ADB917122030CCBD007CFF0B /* h3-swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB917112030CCBD007CFF0B /* h3-swift.swift */; };
-		ADEA012920303A2B000C2FD2 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = ADEA005C20303A2B000C2FD2 /* .gitignore */; };
-		ADEA012A20303A2B000C2FD2 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = ADEA005D20303A2B000C2FD2 /* .travis.yml */; };
 		ADEA012B20303A2B000C2FD2 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = ADEA005E20303A2B000C2FD2 /* CHANGELOG.md */; };
-		ADEA012D20303A2B000C2FD2 /* build_windows.md in Resources */ = {isa = PBXBuildFile; fileRef = ADEA006120303A2B000C2FD2 /* build_windows.md */; };
-		ADEA012E20303A2B000C2FD2 /* Doxyfile.in in Resources */ = {isa = PBXBuildFile; fileRef = ADEA006220303A2B000C2FD2 /* Doxyfile.in */; };
-		ADEA012F20303A2B000C2FD2 /* coordsystems.md in Resources */ = {isa = PBXBuildFile; fileRef = ADEA006420303A2B000C2FD2 /* coordsystems.md */; };
-		ADEA013020303A2B000C2FD2 /* filters.md in Resources */ = {isa = PBXBuildFile; fileRef = ADEA006520303A2B000C2FD2 /* filters.md */; };
-		ADEA013120303A2B000C2FD2 /* geoToH3desc.md in Resources */ = {isa = PBXBuildFile; fileRef = ADEA006620303A2B000C2FD2 /* geoToH3desc.md */; };
-		ADEA013220303A2B000C2FD2 /* h3indexing.md in Resources */ = {isa = PBXBuildFile; fileRef = ADEA006720303A2B000C2FD2 /* h3indexing.md */; };
-		ADEA013320303A2B000C2FD2 /* h3ToGeoBoundaryDesc.md in Resources */ = {isa = PBXBuildFile; fileRef = ADEA006820303A2B000C2FD2 /* h3ToGeoBoundaryDesc.md */; };
-		ADEA013420303A2B000C2FD2 /* h3ToGeoDesc.md in Resources */ = {isa = PBXBuildFile; fileRef = ADEA006920303A2B000C2FD2 /* h3ToGeoDesc.md */; };
-		ADEA013520303A2B000C2FD2 /* ca_compact_6_901.png in Resources */ = {isa = PBXBuildFile; fileRef = ADEA006B20303A2B000C2FD2 /* ca_compact_6_901.png */; };
-		ADEA013620303A2B000C2FD2 /* ca_uncompact_6_10633.png in Resources */ = {isa = PBXBuildFile; fileRef = ADEA006C20303A2B000C2FD2 /* ca_uncompact_6_10633.png */; };
-		ADEA013720303A2B000C2FD2 /* classII.III.png in Resources */ = {isa = PBXBuildFile; fileRef = ADEA006D20303A2B000C2FD2 /* classII.III.png */; };
-		ADEA013820303A2B000C2FD2 /* cpidigits.png in Resources */ = {isa = PBXBuildFile; fileRef = ADEA006E20303A2B000C2FD2 /* cpidigits.png */; };
-		ADEA013920303A2B000C2FD2 /* ijkp.png in Resources */ = {isa = PBXBuildFile; fileRef = ADEA006F20303A2B000C2FD2 /* ijkp.png */; };
-		ADEA013A20303A2B000C2FD2 /* neighbors-hexagon.png in Resources */ = {isa = PBXBuildFile; fileRef = ADEA007020303A2B000C2FD2 /* neighbors-hexagon.png */; };
-		ADEA013B20303A2B000C2FD2 /* neighbors-square.png in Resources */ = {isa = PBXBuildFile; fileRef = ADEA007120303A2B000C2FD2 /* neighbors-square.png */; };
-		ADEA013C20303A2B000C2FD2 /* neighbors-triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = ADEA007220303A2B000C2FD2 /* neighbors-triangle.png */; };
-		ADEA013D20303A2B000C2FD2 /* neighbors.png in Resources */ = {isa = PBXBuildFile; fileRef = ADEA007320303A2B000C2FD2 /* neighbors.png */; };
-		ADEA013E20303A2B000C2FD2 /* parent-child.png in Resources */ = {isa = PBXBuildFile; fileRef = ADEA007420303A2B000C2FD2 /* parent-child.png */; };
-		ADEA013F20303A2B000C2FD2 /* substrate3.png in Resources */ = {isa = PBXBuildFile; fileRef = ADEA007520303A2B000C2FD2 /* substrate3.png */; };
-		ADEA014020303A2B000C2FD2 /* triEdge.png in Resources */ = {isa = PBXBuildFile; fileRef = ADEA007620303A2B000C2FD2 /* triEdge.png */; };
-		ADEA014120303A2B000C2FD2 /* mainpage.md in Resources */ = {isa = PBXBuildFile; fileRef = ADEA007720303A2B000C2FD2 /* mainpage.md */; };
-		ADEA014220303A2B000C2FD2 /* overview.md in Resources */ = {isa = PBXBuildFile; fileRef = ADEA007820303A2B000C2FD2 /* overview.md */; };
-		ADEA014320303A2B000C2FD2 /* restable.md in Resources */ = {isa = PBXBuildFile; fileRef = ADEA007920303A2B000C2FD2 /* restable.md */; };
-		ADEA014420303A2B000C2FD2 /* usage.md in Resources */ = {isa = PBXBuildFile; fileRef = ADEA007A20303A2B000C2FD2 /* usage.md */; };
-		ADEA014520303A2B000C2FD2 /* usecases.md in Resources */ = {isa = PBXBuildFile; fileRef = ADEA007B20303A2B000C2FD2 /* usecases.md */; };
-		ADEA014820303A2B000C2FD2 /* icosa.kml in Resources */ = {isa = PBXBuildFile; fileRef = ADEA008020303A2B000C2FD2 /* icosa.kml */; };
 		ADEA014920303A2B000C2FD2 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = ADEA008120303A2B000C2FD2 /* LICENSE */; };
 		ADEA014A20303A2B000C2FD2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = ADEA008220303A2B000C2FD2 /* README.md */; };
-		ADEA014B20303A2B000C2FD2 /* binding_functions.ps1 in Resources */ = {isa = PBXBuildFile; fileRef = ADEA008420303A2B000C2FD2 /* binding_functions.ps1 */; };
-		ADEA014C20303A2B000C2FD2 /* binding_functions.sh in Resources */ = {isa = PBXBuildFile; fileRef = ADEA008520303A2B000C2FD2 /* binding_functions.sh */; };
 		ADEA014D20303A2B000C2FD2 /* benchmark.h in Headers */ = {isa = PBXBuildFile; fileRef = ADEA008A20303A2B000C2FD2 /* benchmark.h */; };
 		ADEA014E20303A2B000C2FD2 /* kml.h in Headers */ = {isa = PBXBuildFile; fileRef = ADEA008B20303A2B000C2FD2 /* kml.h */; };
 		ADEA014F20303A2B000C2FD2 /* test.h in Headers */ = {isa = PBXBuildFile; fileRef = ADEA008C20303A2B000C2FD2 /* test.h */; };
@@ -111,85 +81,6 @@
 		ADEA018F20303A2B000C2FD2 /* mathExtensions.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA00D420303A2B000C2FD2 /* mathExtensions.c */; };
 		ADEA019020303A2B000C2FD2 /* vec2d.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA00D520303A2B000C2FD2 /* vec2d.c */; };
 		ADEA019120303A2B000C2FD2 /* vertexGraph.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA00D620303A2B000C2FD2 /* vertexGraph.c */; };
-		ADEA019220303A2B000C2FD2 /* bc05r08cells.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA00D920303A2B000C2FD2 /* bc05r08cells.txt */; };
-		ADEA019320303A2B000C2FD2 /* bc05r08centers.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA00DA20303A2B000C2FD2 /* bc05r08centers.txt */; };
-		ADEA019420303A2B000C2FD2 /* bc05r09cells.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA00DB20303A2B000C2FD2 /* bc05r09cells.txt */; };
-		ADEA019520303A2B000C2FD2 /* bc05r09centers.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA00DC20303A2B000C2FD2 /* bc05r09centers.txt */; };
-		ADEA019620303A2B000C2FD2 /* bc05r10cells.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA00DD20303A2B000C2FD2 /* bc05r10cells.txt */; };
-		ADEA019720303A2B000C2FD2 /* bc05r10centers.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA00DE20303A2B000C2FD2 /* bc05r10centers.txt */; };
-		ADEA019820303A2B000C2FD2 /* bc05r11cells.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA00DF20303A2B000C2FD2 /* bc05r11cells.txt */; };
-		ADEA019920303A2B000C2FD2 /* bc05r11centers.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA00E020303A2B000C2FD2 /* bc05r11centers.txt */; };
-		ADEA019A20303A2B000C2FD2 /* bc05r12cells.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA00E120303A2B000C2FD2 /* bc05r12cells.txt */; };
-		ADEA019B20303A2B000C2FD2 /* bc05r12centers.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA00E220303A2B000C2FD2 /* bc05r12centers.txt */; };
-		ADEA019C20303A2B000C2FD2 /* bc05r13cells.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA00E320303A2B000C2FD2 /* bc05r13cells.txt */; };
-		ADEA019D20303A2B000C2FD2 /* bc05r13centers.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA00E420303A2B000C2FD2 /* bc05r13centers.txt */; };
-		ADEA019E20303A2B000C2FD2 /* bc05r14cells.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA00E520303A2B000C2FD2 /* bc05r14cells.txt */; };
-		ADEA019F20303A2B000C2FD2 /* bc05r14centers.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA00E620303A2B000C2FD2 /* bc05r14centers.txt */; };
-		ADEA01A020303A2B000C2FD2 /* bc05r15cells.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA00E720303A2B000C2FD2 /* bc05r15cells.txt */; };
-		ADEA01A120303A2B000C2FD2 /* bc05r15centers.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA00E820303A2B000C2FD2 /* bc05r15centers.txt */; };
-		ADEA01A220303A2B000C2FD2 /* bc14r08cells.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA00E920303A2B000C2FD2 /* bc14r08cells.txt */; };
-		ADEA01A320303A2B000C2FD2 /* bc14r08centers.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA00EA20303A2B000C2FD2 /* bc14r08centers.txt */; };
-		ADEA01A420303A2B000C2FD2 /* bc14r09cells.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA00EB20303A2B000C2FD2 /* bc14r09cells.txt */; };
-		ADEA01A520303A2B000C2FD2 /* bc14r09centers.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA00EC20303A2B000C2FD2 /* bc14r09centers.txt */; };
-		ADEA01A620303A2B000C2FD2 /* bc14r10cells.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA00ED20303A2B000C2FD2 /* bc14r10cells.txt */; };
-		ADEA01A720303A2B000C2FD2 /* bc14r10centers.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA00EE20303A2B000C2FD2 /* bc14r10centers.txt */; };
-		ADEA01A820303A2B000C2FD2 /* bc14r11cells.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA00EF20303A2B000C2FD2 /* bc14r11cells.txt */; };
-		ADEA01A920303A2B000C2FD2 /* bc14r11centers.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA00F020303A2B000C2FD2 /* bc14r11centers.txt */; };
-		ADEA01AA20303A2B000C2FD2 /* bc14r12cells.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA00F120303A2B000C2FD2 /* bc14r12cells.txt */; };
-		ADEA01AB20303A2B000C2FD2 /* bc14r12centers.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA00F220303A2B000C2FD2 /* bc14r12centers.txt */; };
-		ADEA01AC20303A2B000C2FD2 /* bc14r13cells.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA00F320303A2B000C2FD2 /* bc14r13cells.txt */; };
-		ADEA01AD20303A2B000C2FD2 /* bc14r13centers.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA00F420303A2B000C2FD2 /* bc14r13centers.txt */; };
-		ADEA01AE20303A2B000C2FD2 /* bc14r14cells.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA00F520303A2B000C2FD2 /* bc14r14cells.txt */; };
-		ADEA01AF20303A2B000C2FD2 /* bc14r14centers.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA00F620303A2B000C2FD2 /* bc14r14centers.txt */; };
-		ADEA01B020303A2B000C2FD2 /* bc14r15cells.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA00F720303A2B000C2FD2 /* bc14r15cells.txt */; };
-		ADEA01B120303A2B000C2FD2 /* bc14r15centers.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA00F820303A2B000C2FD2 /* bc14r15centers.txt */; };
-		ADEA01B220303A2B000C2FD2 /* bc19r08cells.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA00F920303A2B000C2FD2 /* bc19r08cells.txt */; };
-		ADEA01B320303A2B000C2FD2 /* bc19r08centers.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA00FA20303A2B000C2FD2 /* bc19r08centers.txt */; };
-		ADEA01B420303A2B000C2FD2 /* bc19r09cells.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA00FB20303A2B000C2FD2 /* bc19r09cells.txt */; };
-		ADEA01B520303A2B000C2FD2 /* bc19r09centers.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA00FC20303A2B000C2FD2 /* bc19r09centers.txt */; };
-		ADEA01B620303A2B000C2FD2 /* bc19r10cells.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA00FD20303A2B000C2FD2 /* bc19r10cells.txt */; };
-		ADEA01B720303A2B000C2FD2 /* bc19r10centers.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA00FE20303A2B000C2FD2 /* bc19r10centers.txt */; };
-		ADEA01B820303A2B000C2FD2 /* bc19r11cells.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA00FF20303A2B000C2FD2 /* bc19r11cells.txt */; };
-		ADEA01B920303A2B000C2FD2 /* bc19r11centers.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA010020303A2B000C2FD2 /* bc19r11centers.txt */; };
-		ADEA01BA20303A2B000C2FD2 /* bc19r12cells.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA010120303A2B000C2FD2 /* bc19r12cells.txt */; };
-		ADEA01BB20303A2B000C2FD2 /* bc19r12centers.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA010220303A2B000C2FD2 /* bc19r12centers.txt */; };
-		ADEA01BC20303A2B000C2FD2 /* bc19r13cells.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA010320303A2B000C2FD2 /* bc19r13cells.txt */; };
-		ADEA01BD20303A2B000C2FD2 /* bc19r13centers.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA010420303A2B000C2FD2 /* bc19r13centers.txt */; };
-		ADEA01BE20303A2B000C2FD2 /* bc19r14cells.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA010520303A2B000C2FD2 /* bc19r14cells.txt */; };
-		ADEA01BF20303A2B000C2FD2 /* bc19r14centers.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA010620303A2B000C2FD2 /* bc19r14centers.txt */; };
-		ADEA01C020303A2B000C2FD2 /* bc19r15cells.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA010720303A2B000C2FD2 /* bc19r15cells.txt */; };
-		ADEA01C120303A2B000C2FD2 /* bc19r15centers.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA010820303A2B000C2FD2 /* bc19r15centers.txt */; };
-		ADEA01C220303A2B000C2FD2 /* rand05cells.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA010920303A2B000C2FD2 /* rand05cells.txt */; };
-		ADEA01C320303A2B000C2FD2 /* rand05centers.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA010A20303A2B000C2FD2 /* rand05centers.txt */; };
-		ADEA01C420303A2B000C2FD2 /* rand06cells.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA010B20303A2B000C2FD2 /* rand06cells.txt */; };
-		ADEA01C520303A2B000C2FD2 /* rand06centers.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA010C20303A2B000C2FD2 /* rand06centers.txt */; };
-		ADEA01C620303A2B000C2FD2 /* rand07cells.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA010D20303A2B000C2FD2 /* rand07cells.txt */; };
-		ADEA01C720303A2B000C2FD2 /* rand07centers.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA010E20303A2B000C2FD2 /* rand07centers.txt */; };
-		ADEA01C820303A2B000C2FD2 /* rand08cells.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA010F20303A2B000C2FD2 /* rand08cells.txt */; };
-		ADEA01C920303A2B000C2FD2 /* rand08centers.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA011020303A2B000C2FD2 /* rand08centers.txt */; };
-		ADEA01CA20303A2B000C2FD2 /* rand09cells.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA011120303A2B000C2FD2 /* rand09cells.txt */; };
-		ADEA01CB20303A2B000C2FD2 /* rand09centers.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA011220303A2B000C2FD2 /* rand09centers.txt */; };
-		ADEA01CC20303A2B000C2FD2 /* rand10cells.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA011320303A2B000C2FD2 /* rand10cells.txt */; };
-		ADEA01CD20303A2B000C2FD2 /* rand10centers.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA011420303A2B000C2FD2 /* rand10centers.txt */; };
-		ADEA01CE20303A2B000C2FD2 /* rand11cells.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA011520303A2B000C2FD2 /* rand11cells.txt */; };
-		ADEA01CF20303A2B000C2FD2 /* rand11centers.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA011620303A2B000C2FD2 /* rand11centers.txt */; };
-		ADEA01D020303A2B000C2FD2 /* rand12cells.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA011720303A2B000C2FD2 /* rand12cells.txt */; };
-		ADEA01D120303A2B000C2FD2 /* rand12centers.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA011820303A2B000C2FD2 /* rand12centers.txt */; };
-		ADEA01D220303A2B000C2FD2 /* rand13cells.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA011920303A2B000C2FD2 /* rand13cells.txt */; };
-		ADEA01D320303A2B000C2FD2 /* rand13centers.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA011A20303A2B000C2FD2 /* rand13centers.txt */; };
-		ADEA01D420303A2B000C2FD2 /* rand14cells.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA011B20303A2B000C2FD2 /* rand14cells.txt */; };
-		ADEA01D520303A2B000C2FD2 /* rand14centers.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA011C20303A2B000C2FD2 /* rand14centers.txt */; };
-		ADEA01D620303A2B000C2FD2 /* rand15cells.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA011D20303A2B000C2FD2 /* rand15cells.txt */; };
-		ADEA01D720303A2B000C2FD2 /* rand15centers.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA011E20303A2B000C2FD2 /* rand15centers.txt */; };
-		ADEA01D820303A2B000C2FD2 /* res00cells.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA011F20303A2B000C2FD2 /* res00cells.txt */; };
-		ADEA01D920303A2B000C2FD2 /* res00ic.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA012020303A2B000C2FD2 /* res00ic.txt */; };
-		ADEA01DA20303A2B000C2FD2 /* res01cells.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA012120303A2B000C2FD2 /* res01cells.txt */; };
-		ADEA01DB20303A2B000C2FD2 /* res01ic.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA012220303A2B000C2FD2 /* res01ic.txt */; };
-		ADEA01DC20303A2B000C2FD2 /* res02cells.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA012320303A2B000C2FD2 /* res02cells.txt */; };
-		ADEA01DD20303A2B000C2FD2 /* res02ic.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA012420303A2B000C2FD2 /* res02ic.txt */; };
-		ADEA01DE20303A2B000C2FD2 /* res03cells.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA012520303A2B000C2FD2 /* res03cells.txt */; };
-		ADEA01DF20303A2B000C2FD2 /* res03ic.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA012620303A2B000C2FD2 /* res03ic.txt */; };
-		ADEA01E020303A2B000C2FD2 /* res04ic.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA012720303A2B000C2FD2 /* res04ic.txt */; };
 		ADEA01E120303A2B000C2FD2 /* VERSION in Resources */ = {isa = PBXBuildFile; fileRef = ADEA012820303A2B000C2FD2 /* VERSION */; };
 /* End PBXBuildFile section */
 
@@ -199,39 +90,9 @@
 		AD4B83ED2027C04900D116BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD71F4F02030DE4900B92D8E /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		ADB917112030CCBD007CFF0B /* h3-swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "h3-swift.swift"; sourceTree = "<group>"; };
-		ADEA005C20303A2B000C2FD2 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		ADEA005D20303A2B000C2FD2 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 		ADEA005E20303A2B000C2FD2 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
-		ADEA006120303A2B000C2FD2 /* build_windows.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = build_windows.md; sourceTree = "<group>"; };
-		ADEA006220303A2B000C2FD2 /* Doxyfile.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Doxyfile.in; sourceTree = "<group>"; };
-		ADEA006420303A2B000C2FD2 /* coordsystems.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = coordsystems.md; sourceTree = "<group>"; };
-		ADEA006520303A2B000C2FD2 /* filters.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = filters.md; sourceTree = "<group>"; };
-		ADEA006620303A2B000C2FD2 /* geoToH3desc.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = geoToH3desc.md; sourceTree = "<group>"; };
-		ADEA006720303A2B000C2FD2 /* h3indexing.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = h3indexing.md; sourceTree = "<group>"; };
-		ADEA006820303A2B000C2FD2 /* h3ToGeoBoundaryDesc.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = h3ToGeoBoundaryDesc.md; sourceTree = "<group>"; };
-		ADEA006920303A2B000C2FD2 /* h3ToGeoDesc.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = h3ToGeoDesc.md; sourceTree = "<group>"; };
-		ADEA006B20303A2B000C2FD2 /* ca_compact_6_901.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ca_compact_6_901.png; sourceTree = "<group>"; };
-		ADEA006C20303A2B000C2FD2 /* ca_uncompact_6_10633.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ca_uncompact_6_10633.png; sourceTree = "<group>"; };
-		ADEA006D20303A2B000C2FD2 /* classII.III.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = classII.III.png; sourceTree = "<group>"; };
-		ADEA006E20303A2B000C2FD2 /* cpidigits.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cpidigits.png; sourceTree = "<group>"; };
-		ADEA006F20303A2B000C2FD2 /* ijkp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ijkp.png; sourceTree = "<group>"; };
-		ADEA007020303A2B000C2FD2 /* neighbors-hexagon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "neighbors-hexagon.png"; sourceTree = "<group>"; };
-		ADEA007120303A2B000C2FD2 /* neighbors-square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "neighbors-square.png"; sourceTree = "<group>"; };
-		ADEA007220303A2B000C2FD2 /* neighbors-triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "neighbors-triangle.png"; sourceTree = "<group>"; };
-		ADEA007320303A2B000C2FD2 /* neighbors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = neighbors.png; sourceTree = "<group>"; };
-		ADEA007420303A2B000C2FD2 /* parent-child.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "parent-child.png"; sourceTree = "<group>"; };
-		ADEA007520303A2B000C2FD2 /* substrate3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = substrate3.png; sourceTree = "<group>"; };
-		ADEA007620303A2B000C2FD2 /* triEdge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triEdge.png; sourceTree = "<group>"; };
-		ADEA007720303A2B000C2FD2 /* mainpage.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = mainpage.md; sourceTree = "<group>"; };
-		ADEA007820303A2B000C2FD2 /* overview.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = overview.md; sourceTree = "<group>"; };
-		ADEA007920303A2B000C2FD2 /* restable.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = restable.md; sourceTree = "<group>"; };
-		ADEA007A20303A2B000C2FD2 /* usage.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = usage.md; sourceTree = "<group>"; };
-		ADEA007B20303A2B000C2FD2 /* usecases.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = usecases.md; sourceTree = "<group>"; };
-		ADEA008020303A2B000C2FD2 /* icosa.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = icosa.kml; sourceTree = "<group>"; };
 		ADEA008120303A2B000C2FD2 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		ADEA008220303A2B000C2FD2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		ADEA008420303A2B000C2FD2 /* binding_functions.ps1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = binding_functions.ps1; sourceTree = "<group>"; };
-		ADEA008520303A2B000C2FD2 /* binding_functions.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = binding_functions.sh; sourceTree = "<group>"; };
 		ADEA008A20303A2B000C2FD2 /* benchmark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = benchmark.h; sourceTree = "<group>"; };
 		ADEA008B20303A2B000C2FD2 /* kml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kml.h; sourceTree = "<group>"; };
 		ADEA008C20303A2B000C2FD2 /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
@@ -301,85 +162,6 @@
 		ADEA00D420303A2B000C2FD2 /* mathExtensions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mathExtensions.c; sourceTree = "<group>"; };
 		ADEA00D520303A2B000C2FD2 /* vec2d.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vec2d.c; sourceTree = "<group>"; };
 		ADEA00D620303A2B000C2FD2 /* vertexGraph.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vertexGraph.c; sourceTree = "<group>"; };
-		ADEA00D920303A2B000C2FD2 /* bc05r08cells.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bc05r08cells.txt; sourceTree = "<group>"; };
-		ADEA00DA20303A2B000C2FD2 /* bc05r08centers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bc05r08centers.txt; sourceTree = "<group>"; };
-		ADEA00DB20303A2B000C2FD2 /* bc05r09cells.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bc05r09cells.txt; sourceTree = "<group>"; };
-		ADEA00DC20303A2B000C2FD2 /* bc05r09centers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bc05r09centers.txt; sourceTree = "<group>"; };
-		ADEA00DD20303A2B000C2FD2 /* bc05r10cells.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bc05r10cells.txt; sourceTree = "<group>"; };
-		ADEA00DE20303A2B000C2FD2 /* bc05r10centers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bc05r10centers.txt; sourceTree = "<group>"; };
-		ADEA00DF20303A2B000C2FD2 /* bc05r11cells.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bc05r11cells.txt; sourceTree = "<group>"; };
-		ADEA00E020303A2B000C2FD2 /* bc05r11centers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bc05r11centers.txt; sourceTree = "<group>"; };
-		ADEA00E120303A2B000C2FD2 /* bc05r12cells.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bc05r12cells.txt; sourceTree = "<group>"; };
-		ADEA00E220303A2B000C2FD2 /* bc05r12centers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bc05r12centers.txt; sourceTree = "<group>"; };
-		ADEA00E320303A2B000C2FD2 /* bc05r13cells.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bc05r13cells.txt; sourceTree = "<group>"; };
-		ADEA00E420303A2B000C2FD2 /* bc05r13centers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bc05r13centers.txt; sourceTree = "<group>"; };
-		ADEA00E520303A2B000C2FD2 /* bc05r14cells.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bc05r14cells.txt; sourceTree = "<group>"; };
-		ADEA00E620303A2B000C2FD2 /* bc05r14centers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bc05r14centers.txt; sourceTree = "<group>"; };
-		ADEA00E720303A2B000C2FD2 /* bc05r15cells.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bc05r15cells.txt; sourceTree = "<group>"; };
-		ADEA00E820303A2B000C2FD2 /* bc05r15centers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bc05r15centers.txt; sourceTree = "<group>"; };
-		ADEA00E920303A2B000C2FD2 /* bc14r08cells.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bc14r08cells.txt; sourceTree = "<group>"; };
-		ADEA00EA20303A2B000C2FD2 /* bc14r08centers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bc14r08centers.txt; sourceTree = "<group>"; };
-		ADEA00EB20303A2B000C2FD2 /* bc14r09cells.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bc14r09cells.txt; sourceTree = "<group>"; };
-		ADEA00EC20303A2B000C2FD2 /* bc14r09centers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bc14r09centers.txt; sourceTree = "<group>"; };
-		ADEA00ED20303A2B000C2FD2 /* bc14r10cells.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bc14r10cells.txt; sourceTree = "<group>"; };
-		ADEA00EE20303A2B000C2FD2 /* bc14r10centers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bc14r10centers.txt; sourceTree = "<group>"; };
-		ADEA00EF20303A2B000C2FD2 /* bc14r11cells.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bc14r11cells.txt; sourceTree = "<group>"; };
-		ADEA00F020303A2B000C2FD2 /* bc14r11centers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bc14r11centers.txt; sourceTree = "<group>"; };
-		ADEA00F120303A2B000C2FD2 /* bc14r12cells.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bc14r12cells.txt; sourceTree = "<group>"; };
-		ADEA00F220303A2B000C2FD2 /* bc14r12centers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bc14r12centers.txt; sourceTree = "<group>"; };
-		ADEA00F320303A2B000C2FD2 /* bc14r13cells.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bc14r13cells.txt; sourceTree = "<group>"; };
-		ADEA00F420303A2B000C2FD2 /* bc14r13centers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bc14r13centers.txt; sourceTree = "<group>"; };
-		ADEA00F520303A2B000C2FD2 /* bc14r14cells.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bc14r14cells.txt; sourceTree = "<group>"; };
-		ADEA00F620303A2B000C2FD2 /* bc14r14centers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bc14r14centers.txt; sourceTree = "<group>"; };
-		ADEA00F720303A2B000C2FD2 /* bc14r15cells.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bc14r15cells.txt; sourceTree = "<group>"; };
-		ADEA00F820303A2B000C2FD2 /* bc14r15centers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bc14r15centers.txt; sourceTree = "<group>"; };
-		ADEA00F920303A2B000C2FD2 /* bc19r08cells.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bc19r08cells.txt; sourceTree = "<group>"; };
-		ADEA00FA20303A2B000C2FD2 /* bc19r08centers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bc19r08centers.txt; sourceTree = "<group>"; };
-		ADEA00FB20303A2B000C2FD2 /* bc19r09cells.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bc19r09cells.txt; sourceTree = "<group>"; };
-		ADEA00FC20303A2B000C2FD2 /* bc19r09centers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bc19r09centers.txt; sourceTree = "<group>"; };
-		ADEA00FD20303A2B000C2FD2 /* bc19r10cells.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bc19r10cells.txt; sourceTree = "<group>"; };
-		ADEA00FE20303A2B000C2FD2 /* bc19r10centers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bc19r10centers.txt; sourceTree = "<group>"; };
-		ADEA00FF20303A2B000C2FD2 /* bc19r11cells.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bc19r11cells.txt; sourceTree = "<group>"; };
-		ADEA010020303A2B000C2FD2 /* bc19r11centers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bc19r11centers.txt; sourceTree = "<group>"; };
-		ADEA010120303A2B000C2FD2 /* bc19r12cells.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bc19r12cells.txt; sourceTree = "<group>"; };
-		ADEA010220303A2B000C2FD2 /* bc19r12centers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bc19r12centers.txt; sourceTree = "<group>"; };
-		ADEA010320303A2B000C2FD2 /* bc19r13cells.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bc19r13cells.txt; sourceTree = "<group>"; };
-		ADEA010420303A2B000C2FD2 /* bc19r13centers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bc19r13centers.txt; sourceTree = "<group>"; };
-		ADEA010520303A2B000C2FD2 /* bc19r14cells.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bc19r14cells.txt; sourceTree = "<group>"; };
-		ADEA010620303A2B000C2FD2 /* bc19r14centers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bc19r14centers.txt; sourceTree = "<group>"; };
-		ADEA010720303A2B000C2FD2 /* bc19r15cells.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bc19r15cells.txt; sourceTree = "<group>"; };
-		ADEA010820303A2B000C2FD2 /* bc19r15centers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bc19r15centers.txt; sourceTree = "<group>"; };
-		ADEA010920303A2B000C2FD2 /* rand05cells.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rand05cells.txt; sourceTree = "<group>"; };
-		ADEA010A20303A2B000C2FD2 /* rand05centers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rand05centers.txt; sourceTree = "<group>"; };
-		ADEA010B20303A2B000C2FD2 /* rand06cells.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rand06cells.txt; sourceTree = "<group>"; };
-		ADEA010C20303A2B000C2FD2 /* rand06centers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rand06centers.txt; sourceTree = "<group>"; };
-		ADEA010D20303A2B000C2FD2 /* rand07cells.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rand07cells.txt; sourceTree = "<group>"; };
-		ADEA010E20303A2B000C2FD2 /* rand07centers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rand07centers.txt; sourceTree = "<group>"; };
-		ADEA010F20303A2B000C2FD2 /* rand08cells.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rand08cells.txt; sourceTree = "<group>"; };
-		ADEA011020303A2B000C2FD2 /* rand08centers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rand08centers.txt; sourceTree = "<group>"; };
-		ADEA011120303A2B000C2FD2 /* rand09cells.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rand09cells.txt; sourceTree = "<group>"; };
-		ADEA011220303A2B000C2FD2 /* rand09centers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rand09centers.txt; sourceTree = "<group>"; };
-		ADEA011320303A2B000C2FD2 /* rand10cells.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rand10cells.txt; sourceTree = "<group>"; };
-		ADEA011420303A2B000C2FD2 /* rand10centers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rand10centers.txt; sourceTree = "<group>"; };
-		ADEA011520303A2B000C2FD2 /* rand11cells.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rand11cells.txt; sourceTree = "<group>"; };
-		ADEA011620303A2B000C2FD2 /* rand11centers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rand11centers.txt; sourceTree = "<group>"; };
-		ADEA011720303A2B000C2FD2 /* rand12cells.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rand12cells.txt; sourceTree = "<group>"; };
-		ADEA011820303A2B000C2FD2 /* rand12centers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rand12centers.txt; sourceTree = "<group>"; };
-		ADEA011920303A2B000C2FD2 /* rand13cells.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rand13cells.txt; sourceTree = "<group>"; };
-		ADEA011A20303A2B000C2FD2 /* rand13centers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rand13centers.txt; sourceTree = "<group>"; };
-		ADEA011B20303A2B000C2FD2 /* rand14cells.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rand14cells.txt; sourceTree = "<group>"; };
-		ADEA011C20303A2B000C2FD2 /* rand14centers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rand14centers.txt; sourceTree = "<group>"; };
-		ADEA011D20303A2B000C2FD2 /* rand15cells.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rand15cells.txt; sourceTree = "<group>"; };
-		ADEA011E20303A2B000C2FD2 /* rand15centers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rand15centers.txt; sourceTree = "<group>"; };
-		ADEA011F20303A2B000C2FD2 /* res00cells.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = res00cells.txt; sourceTree = "<group>"; };
-		ADEA012020303A2B000C2FD2 /* res00ic.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = res00ic.txt; sourceTree = "<group>"; };
-		ADEA012120303A2B000C2FD2 /* res01cells.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = res01cells.txt; sourceTree = "<group>"; };
-		ADEA012220303A2B000C2FD2 /* res01ic.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = res01ic.txt; sourceTree = "<group>"; };
-		ADEA012320303A2B000C2FD2 /* res02cells.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = res02cells.txt; sourceTree = "<group>"; };
-		ADEA012420303A2B000C2FD2 /* res02ic.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = res02ic.txt; sourceTree = "<group>"; };
-		ADEA012520303A2B000C2FD2 /* res03cells.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = res03cells.txt; sourceTree = "<group>"; };
-		ADEA012620303A2B000C2FD2 /* res03ic.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = res03ic.txt; sourceTree = "<group>"; };
-		ADEA012720303A2B000C2FD2 /* res04ic.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = res04ic.txt; sourceTree = "<group>"; };
 		ADEA012820303A2B000C2FD2 /* VERSION */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VERSION; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -425,84 +207,13 @@
 		ADEA005B20303A2B000C2FD2 /* h3 */ = {
 			isa = PBXGroup;
 			children = (
-				ADEA005C20303A2B000C2FD2 /* .gitignore */,
-				ADEA005D20303A2B000C2FD2 /* .travis.yml */,
 				ADEA005E20303A2B000C2FD2 /* CHANGELOG.md */,
-				ADEA006020303A2B000C2FD2 /* docs */,
-				ADEA007F20303A2B000C2FD2 /* KML */,
 				ADEA008120303A2B000C2FD2 /* LICENSE */,
 				ADEA008220303A2B000C2FD2 /* README.md */,
-				ADEA008320303A2B000C2FD2 /* scripts */,
 				ADEA008620303A2B000C2FD2 /* src */,
-				ADEA00D720303A2B000C2FD2 /* tests */,
 				ADEA012820303A2B000C2FD2 /* VERSION */,
 			);
 			path = h3;
-			sourceTree = "<group>";
-		};
-		ADEA006020303A2B000C2FD2 /* docs */ = {
-			isa = PBXGroup;
-			children = (
-				ADEA006120303A2B000C2FD2 /* build_windows.md */,
-				ADEA006220303A2B000C2FD2 /* Doxyfile.in */,
-				ADEA006320303A2B000C2FD2 /* doxyfiles */,
-			);
-			path = docs;
-			sourceTree = "<group>";
-		};
-		ADEA006320303A2B000C2FD2 /* doxyfiles */ = {
-			isa = PBXGroup;
-			children = (
-				ADEA006420303A2B000C2FD2 /* coordsystems.md */,
-				ADEA006520303A2B000C2FD2 /* filters.md */,
-				ADEA006620303A2B000C2FD2 /* geoToH3desc.md */,
-				ADEA006720303A2B000C2FD2 /* h3indexing.md */,
-				ADEA006820303A2B000C2FD2 /* h3ToGeoBoundaryDesc.md */,
-				ADEA006920303A2B000C2FD2 /* h3ToGeoDesc.md */,
-				ADEA006A20303A2B000C2FD2 /* images */,
-				ADEA007720303A2B000C2FD2 /* mainpage.md */,
-				ADEA007820303A2B000C2FD2 /* overview.md */,
-				ADEA007920303A2B000C2FD2 /* restable.md */,
-				ADEA007A20303A2B000C2FD2 /* usage.md */,
-				ADEA007B20303A2B000C2FD2 /* usecases.md */,
-			);
-			path = doxyfiles;
-			sourceTree = "<group>";
-		};
-		ADEA006A20303A2B000C2FD2 /* images */ = {
-			isa = PBXGroup;
-			children = (
-				ADEA006B20303A2B000C2FD2 /* ca_compact_6_901.png */,
-				ADEA006C20303A2B000C2FD2 /* ca_uncompact_6_10633.png */,
-				ADEA006D20303A2B000C2FD2 /* classII.III.png */,
-				ADEA006E20303A2B000C2FD2 /* cpidigits.png */,
-				ADEA006F20303A2B000C2FD2 /* ijkp.png */,
-				ADEA007020303A2B000C2FD2 /* neighbors-hexagon.png */,
-				ADEA007120303A2B000C2FD2 /* neighbors-square.png */,
-				ADEA007220303A2B000C2FD2 /* neighbors-triangle.png */,
-				ADEA007320303A2B000C2FD2 /* neighbors.png */,
-				ADEA007420303A2B000C2FD2 /* parent-child.png */,
-				ADEA007520303A2B000C2FD2 /* substrate3.png */,
-				ADEA007620303A2B000C2FD2 /* triEdge.png */,
-			);
-			path = images;
-			sourceTree = "<group>";
-		};
-		ADEA007F20303A2B000C2FD2 /* KML */ = {
-			isa = PBXGroup;
-			children = (
-				ADEA008020303A2B000C2FD2 /* icosa.kml */,
-			);
-			path = KML;
-			sourceTree = "<group>";
-		};
-		ADEA008320303A2B000C2FD2 /* scripts */ = {
-			isa = PBXGroup;
-			children = (
-				ADEA008420303A2B000C2FD2 /* binding_functions.ps1 */,
-				ADEA008520303A2B000C2FD2 /* binding_functions.sh */,
-			);
-			path = scripts;
 			sourceTree = "<group>";
 		};
 		ADEA008620303A2B000C2FD2 /* src */ = {
@@ -669,100 +380,6 @@
 			path = lib;
 			sourceTree = "<group>";
 		};
-		ADEA00D720303A2B000C2FD2 /* tests */ = {
-			isa = PBXGroup;
-			children = (
-				ADEA00D820303A2B000C2FD2 /* inputfiles */,
-			);
-			path = tests;
-			sourceTree = "<group>";
-		};
-		ADEA00D820303A2B000C2FD2 /* inputfiles */ = {
-			isa = PBXGroup;
-			children = (
-				ADEA00D920303A2B000C2FD2 /* bc05r08cells.txt */,
-				ADEA00DA20303A2B000C2FD2 /* bc05r08centers.txt */,
-				ADEA00DB20303A2B000C2FD2 /* bc05r09cells.txt */,
-				ADEA00DC20303A2B000C2FD2 /* bc05r09centers.txt */,
-				ADEA00DD20303A2B000C2FD2 /* bc05r10cells.txt */,
-				ADEA00DE20303A2B000C2FD2 /* bc05r10centers.txt */,
-				ADEA00DF20303A2B000C2FD2 /* bc05r11cells.txt */,
-				ADEA00E020303A2B000C2FD2 /* bc05r11centers.txt */,
-				ADEA00E120303A2B000C2FD2 /* bc05r12cells.txt */,
-				ADEA00E220303A2B000C2FD2 /* bc05r12centers.txt */,
-				ADEA00E320303A2B000C2FD2 /* bc05r13cells.txt */,
-				ADEA00E420303A2B000C2FD2 /* bc05r13centers.txt */,
-				ADEA00E520303A2B000C2FD2 /* bc05r14cells.txt */,
-				ADEA00E620303A2B000C2FD2 /* bc05r14centers.txt */,
-				ADEA00E720303A2B000C2FD2 /* bc05r15cells.txt */,
-				ADEA00E820303A2B000C2FD2 /* bc05r15centers.txt */,
-				ADEA00E920303A2B000C2FD2 /* bc14r08cells.txt */,
-				ADEA00EA20303A2B000C2FD2 /* bc14r08centers.txt */,
-				ADEA00EB20303A2B000C2FD2 /* bc14r09cells.txt */,
-				ADEA00EC20303A2B000C2FD2 /* bc14r09centers.txt */,
-				ADEA00ED20303A2B000C2FD2 /* bc14r10cells.txt */,
-				ADEA00EE20303A2B000C2FD2 /* bc14r10centers.txt */,
-				ADEA00EF20303A2B000C2FD2 /* bc14r11cells.txt */,
-				ADEA00F020303A2B000C2FD2 /* bc14r11centers.txt */,
-				ADEA00F120303A2B000C2FD2 /* bc14r12cells.txt */,
-				ADEA00F220303A2B000C2FD2 /* bc14r12centers.txt */,
-				ADEA00F320303A2B000C2FD2 /* bc14r13cells.txt */,
-				ADEA00F420303A2B000C2FD2 /* bc14r13centers.txt */,
-				ADEA00F520303A2B000C2FD2 /* bc14r14cells.txt */,
-				ADEA00F620303A2B000C2FD2 /* bc14r14centers.txt */,
-				ADEA00F720303A2B000C2FD2 /* bc14r15cells.txt */,
-				ADEA00F820303A2B000C2FD2 /* bc14r15centers.txt */,
-				ADEA00F920303A2B000C2FD2 /* bc19r08cells.txt */,
-				ADEA00FA20303A2B000C2FD2 /* bc19r08centers.txt */,
-				ADEA00FB20303A2B000C2FD2 /* bc19r09cells.txt */,
-				ADEA00FC20303A2B000C2FD2 /* bc19r09centers.txt */,
-				ADEA00FD20303A2B000C2FD2 /* bc19r10cells.txt */,
-				ADEA00FE20303A2B000C2FD2 /* bc19r10centers.txt */,
-				ADEA00FF20303A2B000C2FD2 /* bc19r11cells.txt */,
-				ADEA010020303A2B000C2FD2 /* bc19r11centers.txt */,
-				ADEA010120303A2B000C2FD2 /* bc19r12cells.txt */,
-				ADEA010220303A2B000C2FD2 /* bc19r12centers.txt */,
-				ADEA010320303A2B000C2FD2 /* bc19r13cells.txt */,
-				ADEA010420303A2B000C2FD2 /* bc19r13centers.txt */,
-				ADEA010520303A2B000C2FD2 /* bc19r14cells.txt */,
-				ADEA010620303A2B000C2FD2 /* bc19r14centers.txt */,
-				ADEA010720303A2B000C2FD2 /* bc19r15cells.txt */,
-				ADEA010820303A2B000C2FD2 /* bc19r15centers.txt */,
-				ADEA010920303A2B000C2FD2 /* rand05cells.txt */,
-				ADEA010A20303A2B000C2FD2 /* rand05centers.txt */,
-				ADEA010B20303A2B000C2FD2 /* rand06cells.txt */,
-				ADEA010C20303A2B000C2FD2 /* rand06centers.txt */,
-				ADEA010D20303A2B000C2FD2 /* rand07cells.txt */,
-				ADEA010E20303A2B000C2FD2 /* rand07centers.txt */,
-				ADEA010F20303A2B000C2FD2 /* rand08cells.txt */,
-				ADEA011020303A2B000C2FD2 /* rand08centers.txt */,
-				ADEA011120303A2B000C2FD2 /* rand09cells.txt */,
-				ADEA011220303A2B000C2FD2 /* rand09centers.txt */,
-				ADEA011320303A2B000C2FD2 /* rand10cells.txt */,
-				ADEA011420303A2B000C2FD2 /* rand10centers.txt */,
-				ADEA011520303A2B000C2FD2 /* rand11cells.txt */,
-				ADEA011620303A2B000C2FD2 /* rand11centers.txt */,
-				ADEA011720303A2B000C2FD2 /* rand12cells.txt */,
-				ADEA011820303A2B000C2FD2 /* rand12centers.txt */,
-				ADEA011920303A2B000C2FD2 /* rand13cells.txt */,
-				ADEA011A20303A2B000C2FD2 /* rand13centers.txt */,
-				ADEA011B20303A2B000C2FD2 /* rand14cells.txt */,
-				ADEA011C20303A2B000C2FD2 /* rand14centers.txt */,
-				ADEA011D20303A2B000C2FD2 /* rand15cells.txt */,
-				ADEA011E20303A2B000C2FD2 /* rand15centers.txt */,
-				ADEA011F20303A2B000C2FD2 /* res00cells.txt */,
-				ADEA012020303A2B000C2FD2 /* res00ic.txt */,
-				ADEA012120303A2B000C2FD2 /* res01cells.txt */,
-				ADEA012220303A2B000C2FD2 /* res01ic.txt */,
-				ADEA012320303A2B000C2FD2 /* res02cells.txt */,
-				ADEA012420303A2B000C2FD2 /* res02ic.txt */,
-				ADEA012520303A2B000C2FD2 /* res03cells.txt */,
-				ADEA012620303A2B000C2FD2 /* res03ic.txt */,
-				ADEA012720303A2B000C2FD2 /* res04ic.txt */,
-			);
-			path = inputfiles;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -851,120 +468,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADEA014B20303A2B000C2FD2 /* binding_functions.ps1 in Resources */,
-				ADEA013820303A2B000C2FD2 /* cpidigits.png in Resources */,
-				ADEA014220303A2B000C2FD2 /* overview.md in Resources */,
-				ADEA013C20303A2B000C2FD2 /* neighbors-triangle.png in Resources */,
-				ADEA01C920303A2B000C2FD2 /* rand08centers.txt in Resources */,
-				ADEA013520303A2B000C2FD2 /* ca_compact_6_901.png in Resources */,
-				ADEA01A520303A2B000C2FD2 /* bc14r09centers.txt in Resources */,
-				ADEA013F20303A2B000C2FD2 /* substrate3.png in Resources */,
-				ADEA013A20303A2B000C2FD2 /* neighbors-hexagon.png in Resources */,
-				ADEA019320303A2B000C2FD2 /* bc05r08centers.txt in Resources */,
-				ADEA012D20303A2B000C2FD2 /* build_windows.md in Resources */,
-				ADEA014320303A2B000C2FD2 /* restable.md in Resources */,
-				ADEA01B620303A2B000C2FD2 /* bc19r10cells.txt in Resources */,
-				ADEA01BC20303A2B000C2FD2 /* bc19r13cells.txt in Resources */,
-				ADEA01C320303A2B000C2FD2 /* rand05centers.txt in Resources */,
-				ADEA01D320303A2B000C2FD2 /* rand13centers.txt in Resources */,
-				ADEA01B820303A2B000C2FD2 /* bc19r11cells.txt in Resources */,
-				ADEA01CF20303A2B000C2FD2 /* rand11centers.txt in Resources */,
-				ADEA01C220303A2B000C2FD2 /* rand05cells.txt in Resources */,
-				ADEA01D020303A2B000C2FD2 /* rand12cells.txt in Resources */,
-				ADEA01AD20303A2B000C2FD2 /* bc14r13centers.txt in Resources */,
-				ADEA01D220303A2B000C2FD2 /* rand13cells.txt in Resources */,
-				ADEA01A020303A2B000C2FD2 /* bc05r15cells.txt in Resources */,
-				ADEA01DB20303A2B000C2FD2 /* res01ic.txt in Resources */,
-				ADEA01D120303A2B000C2FD2 /* rand12centers.txt in Resources */,
-				ADEA01C820303A2B000C2FD2 /* rand08cells.txt in Resources */,
-				ADEA014C20303A2B000C2FD2 /* binding_functions.sh in Resources */,
 				ADEA014920303A2B000C2FD2 /* LICENSE in Resources */,
-				ADEA013120303A2B000C2FD2 /* geoToH3desc.md in Resources */,
-				ADEA019220303A2B000C2FD2 /* bc05r08cells.txt in Resources */,
-				ADEA01A720303A2B000C2FD2 /* bc14r10centers.txt in Resources */,
-				ADEA01A120303A2B000C2FD2 /* bc05r15centers.txt in Resources */,
-				ADEA019D20303A2B000C2FD2 /* bc05r13centers.txt in Resources */,
-				ADEA01A320303A2B000C2FD2 /* bc14r08centers.txt in Resources */,
-				ADEA01DD20303A2B000C2FD2 /* res02ic.txt in Resources */,
-				ADEA01A920303A2B000C2FD2 /* bc14r11centers.txt in Resources */,
-				ADEA01C620303A2B000C2FD2 /* rand07cells.txt in Resources */,
-				ADEA01DC20303A2B000C2FD2 /* res02cells.txt in Resources */,
-				ADEA013020303A2B000C2FD2 /* filters.md in Resources */,
-				ADEA01AF20303A2B000C2FD2 /* bc14r14centers.txt in Resources */,
-				ADEA01B320303A2B000C2FD2 /* bc19r08centers.txt in Resources */,
-				ADEA01CC20303A2B000C2FD2 /* rand10cells.txt in Resources */,
-				ADEA01C120303A2B000C2FD2 /* bc19r15centers.txt in Resources */,
-				ADEA01DF20303A2B000C2FD2 /* res03ic.txt in Resources */,
-				ADEA013620303A2B000C2FD2 /* ca_uncompact_6_10633.png in Resources */,
-				ADEA01C520303A2B000C2FD2 /* rand06centers.txt in Resources */,
-				ADEA019F20303A2B000C2FD2 /* bc05r14centers.txt in Resources */,
-				ADEA01B520303A2B000C2FD2 /* bc19r09centers.txt in Resources */,
-				ADEA019E20303A2B000C2FD2 /* bc05r14cells.txt in Resources */,
-				ADEA01D920303A2B000C2FD2 /* res00ic.txt in Resources */,
-				ADEA019B20303A2B000C2FD2 /* bc05r12centers.txt in Resources */,
-				ADEA012E20303A2B000C2FD2 /* Doxyfile.in in Resources */,
-				ADEA014120303A2B000C2FD2 /* mainpage.md in Resources */,
 				ADEA01E120303A2B000C2FD2 /* VERSION in Resources */,
-				ADEA013420303A2B000C2FD2 /* h3ToGeoDesc.md in Resources */,
-				ADEA013920303A2B000C2FD2 /* ijkp.png in Resources */,
-				ADEA01D720303A2B000C2FD2 /* rand15centers.txt in Resources */,
-				ADEA01A420303A2B000C2FD2 /* bc14r09cells.txt in Resources */,
-				ADEA01DA20303A2B000C2FD2 /* res01cells.txt in Resources */,
-				ADEA01BE20303A2B000C2FD2 /* bc19r14cells.txt in Resources */,
-				ADEA01CD20303A2B000C2FD2 /* rand10centers.txt in Resources */,
-				ADEA01B220303A2B000C2FD2 /* bc19r08cells.txt in Resources */,
-				ADEA01A620303A2B000C2FD2 /* bc14r10cells.txt in Resources */,
-				ADEA01B020303A2B000C2FD2 /* bc14r15cells.txt in Resources */,
-				ADEA01C720303A2B000C2FD2 /* rand07centers.txt in Resources */,
-				ADEA01E020303A2B000C2FD2 /* res04ic.txt in Resources */,
-				ADEA01AC20303A2B000C2FD2 /* bc14r13cells.txt in Resources */,
 				ADEA016220303A2B000C2FD2 /* README.txt in Resources */,
-				ADEA01CE20303A2B000C2FD2 /* rand11cells.txt in Resources */,
-				ADEA014420303A2B000C2FD2 /* usage.md in Resources */,
-				ADEA01D520303A2B000C2FD2 /* rand14centers.txt in Resources */,
-				ADEA012A20303A2B000C2FD2 /* .travis.yml in Resources */,
-				ADEA019520303A2B000C2FD2 /* bc05r09centers.txt in Resources */,
-				ADEA019420303A2B000C2FD2 /* bc05r09cells.txt in Resources */,
-				ADEA01A820303A2B000C2FD2 /* bc14r11cells.txt in Resources */,
-				ADEA01D420303A2B000C2FD2 /* rand14cells.txt in Resources */,
-				ADEA01BB20303A2B000C2FD2 /* bc19r12centers.txt in Resources */,
-				ADEA012F20303A2B000C2FD2 /* coordsystems.md in Resources */,
 				ADEA012B20303A2B000C2FD2 /* CHANGELOG.md in Resources */,
-				ADEA019C20303A2B000C2FD2 /* bc05r13cells.txt in Resources */,
-				ADEA01B720303A2B000C2FD2 /* bc19r10centers.txt in Resources */,
-				ADEA013320303A2B000C2FD2 /* h3ToGeoBoundaryDesc.md in Resources */,
-				ADEA01D820303A2B000C2FD2 /* res00cells.txt in Resources */,
-				ADEA01C020303A2B000C2FD2 /* bc19r15cells.txt in Resources */,
 				ADEA014A20303A2B000C2FD2 /* README.md in Resources */,
-				ADEA019920303A2B000C2FD2 /* bc05r11centers.txt in Resources */,
-				ADEA013720303A2B000C2FD2 /* classII.III.png in Resources */,
-				ADEA014020303A2B000C2FD2 /* triEdge.png in Resources */,
-				ADEA013B20303A2B000C2FD2 /* neighbors-square.png in Resources */,
-				ADEA01B120303A2B000C2FD2 /* bc14r15centers.txt in Resources */,
-				ADEA01AE20303A2B000C2FD2 /* bc14r14cells.txt in Resources */,
-				ADEA01C420303A2B000C2FD2 /* rand06cells.txt in Resources */,
-				ADEA013E20303A2B000C2FD2 /* parent-child.png in Resources */,
-				ADEA01BA20303A2B000C2FD2 /* bc19r12cells.txt in Resources */,
-				ADEA01DE20303A2B000C2FD2 /* res03cells.txt in Resources */,
-				ADEA013D20303A2B000C2FD2 /* neighbors.png in Resources */,
-				ADEA019A20303A2B000C2FD2 /* bc05r12cells.txt in Resources */,
-				ADEA019720303A2B000C2FD2 /* bc05r10centers.txt in Resources */,
-				ADEA01BF20303A2B000C2FD2 /* bc19r14centers.txt in Resources */,
-				ADEA01BD20303A2B000C2FD2 /* bc19r13centers.txt in Resources */,
-				ADEA01AB20303A2B000C2FD2 /* bc14r12centers.txt in Resources */,
-				ADEA01D620303A2B000C2FD2 /* rand15cells.txt in Resources */,
-				ADEA01AA20303A2B000C2FD2 /* bc14r12cells.txt in Resources */,
-				ADEA014820303A2B000C2FD2 /* icosa.kml in Resources */,
-				ADEA012920303A2B000C2FD2 /* .gitignore in Resources */,
-				ADEA01B920303A2B000C2FD2 /* bc19r11centers.txt in Resources */,
-				ADEA014520303A2B000C2FD2 /* usecases.md in Resources */,
-				ADEA01CA20303A2B000C2FD2 /* rand09cells.txt in Resources */,
-				ADEA019620303A2B000C2FD2 /* bc05r10cells.txt in Resources */,
-				ADEA01A220303A2B000C2FD2 /* bc14r08cells.txt in Resources */,
-				ADEA013220303A2B000C2FD2 /* h3indexing.md in Resources */,
-				ADEA019820303A2B000C2FD2 /* bc05r11cells.txt in Resources */,
-				ADEA01CB20303A2B000C2FD2 /* rand09centers.txt in Resources */,
-				ADEA01B420303A2B000C2FD2 /* bc19r09cells.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
