@@ -12,49 +12,6 @@
 		ADEA012B20303A2B000C2FD2 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = ADEA005E20303A2B000C2FD2 /* CHANGELOG.md */; };
 		ADEA014920303A2B000C2FD2 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = ADEA008120303A2B000C2FD2 /* LICENSE */; };
 		ADEA014A20303A2B000C2FD2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = ADEA008220303A2B000C2FD2 /* README.md */; };
-		ADEA014D20303A2B000C2FD2 /* benchmark.h in Headers */ = {isa = PBXBuildFile; fileRef = ADEA008A20303A2B000C2FD2 /* benchmark.h */; };
-		ADEA014E20303A2B000C2FD2 /* kml.h in Headers */ = {isa = PBXBuildFile; fileRef = ADEA008B20303A2B000C2FD2 /* kml.h */; };
-		ADEA014F20303A2B000C2FD2 /* test.h in Headers */ = {isa = PBXBuildFile; fileRef = ADEA008C20303A2B000C2FD2 /* test.h */; };
-		ADEA015020303A2B000C2FD2 /* utility.h in Headers */ = {isa = PBXBuildFile; fileRef = ADEA008D20303A2B000C2FD2 /* utility.h */; };
-		ADEA015120303A2B000C2FD2 /* kml.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA008F20303A2B000C2FD2 /* kml.c */; };
-		ADEA015220303A2B000C2FD2 /* test.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA009020303A2B000C2FD2 /* test.c */; };
-		ADEA015320303A2B000C2FD2 /* utility.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA009120303A2B000C2FD2 /* utility.c */; };
-		ADEA015420303A2B000C2FD2 /* benchmarkH3Api.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA009320303A2B000C2FD2 /* benchmarkH3Api.c */; };
-		ADEA015520303A2B000C2FD2 /* benchmarkPolyfill.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA009420303A2B000C2FD2 /* benchmarkPolyfill.c */; };
-		ADEA015620303A2B000C2FD2 /* geoToH3.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA009620303A2B000C2FD2 /* geoToH3.c */; };
-		ADEA015720303A2B000C2FD2 /* h3ToComponents.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA009720303A2B000C2FD2 /* h3ToComponents.c */; };
-		ADEA015820303A2B000C2FD2 /* h3ToGeo.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA009820303A2B000C2FD2 /* h3ToGeo.c */; };
-		ADEA015920303A2B000C2FD2 /* h3ToGeoBoundary.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA009920303A2B000C2FD2 /* h3ToGeoBoundary.c */; };
-		ADEA015A20303A2B000C2FD2 /* hexRange.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA009A20303A2B000C2FD2 /* hexRange.c */; };
-		ADEA015B20303A2B000C2FD2 /* kRing.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA009B20303A2B000C2FD2 /* kRing.c */; };
-		ADEA015C20303A2B000C2FD2 /* generateBaseCellNeighbors.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA009D20303A2B000C2FD2 /* generateBaseCellNeighbors.c */; };
-		ADEA015D20303A2B000C2FD2 /* h3ToGeoBoundaryHier.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA009E20303A2B000C2FD2 /* h3ToGeoBoundaryHier.c */; };
-		ADEA015E20303A2B000C2FD2 /* h3ToGeoHier.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA009F20303A2B000C2FD2 /* h3ToGeoHier.c */; };
-		ADEA015F20303A2B000C2FD2 /* h3ToHier.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA00A020303A2B000C2FD2 /* h3ToHier.c */; };
-		ADEA016020303A2B000C2FD2 /* mkRandGeo.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA00A220303A2B000C2FD2 /* mkRandGeo.c */; };
-		ADEA016120303A2B000C2FD2 /* mkRandGeoBoundary.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA00A320303A2B000C2FD2 /* mkRandGeoBoundary.c */; };
-		ADEA016220303A2B000C2FD2 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = ADEA00A420303A2B000C2FD2 /* README.txt */; };
-		ADEA016320303A2B000C2FD2 /* testBBox.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA00A520303A2B000C2FD2 /* testBBox.c */; };
-		ADEA016420303A2B000C2FD2 /* testCompact.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA00A620303A2B000C2FD2 /* testCompact.c */; };
-		ADEA016520303A2B000C2FD2 /* testGeoCoord.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA00A720303A2B000C2FD2 /* testGeoCoord.c */; };
-		ADEA016620303A2B000C2FD2 /* testGeoToH3.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA00A820303A2B000C2FD2 /* testGeoToH3.c */; };
-		ADEA016720303A2B000C2FD2 /* testH3Api.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA00A920303A2B000C2FD2 /* testH3Api.c */; };
-		ADEA016820303A2B000C2FD2 /* testH3Index.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA00AA20303A2B000C2FD2 /* testH3Index.c */; };
-		ADEA016920303A2B000C2FD2 /* testH3NeighborRotations.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA00AB20303A2B000C2FD2 /* testH3NeighborRotations.c */; };
-		ADEA016A20303A2B000C2FD2 /* testH3SetToLinkedGeo.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA00AC20303A2B000C2FD2 /* testH3SetToLinkedGeo.c */; };
-		ADEA016B20303A2B000C2FD2 /* testH3SetToVertexGraph.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA00AD20303A2B000C2FD2 /* testH3SetToVertexGraph.c */; };
-		ADEA016C20303A2B000C2FD2 /* testH3ToChildren.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA00AE20303A2B000C2FD2 /* testH3ToChildren.c */; };
-		ADEA016D20303A2B000C2FD2 /* testH3ToGeo.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA00AF20303A2B000C2FD2 /* testH3ToGeo.c */; };
-		ADEA016E20303A2B000C2FD2 /* testH3ToGeoBoundary.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA00B020303A2B000C2FD2 /* testH3ToGeoBoundary.c */; };
-		ADEA016F20303A2B000C2FD2 /* testH3ToParent.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA00B120303A2B000C2FD2 /* testH3ToParent.c */; };
-		ADEA017020303A2B000C2FD2 /* testH3UniEdge.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA00B220303A2B000C2FD2 /* testH3UniEdge.c */; };
-		ADEA017120303A2B000C2FD2 /* testHexRanges.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA00B320303A2B000C2FD2 /* testHexRanges.c */; };
-		ADEA017220303A2B000C2FD2 /* testHexRing.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA00B420303A2B000C2FD2 /* testHexRing.c */; };
-		ADEA017320303A2B000C2FD2 /* testKRing.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA00B520303A2B000C2FD2 /* testKRing.c */; };
-		ADEA017420303A2B000C2FD2 /* testLinkedGeo.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA00B620303A2B000C2FD2 /* testLinkedGeo.c */; };
-		ADEA017520303A2B000C2FD2 /* testMaxH3ToChildrenSize.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA00B720303A2B000C2FD2 /* testMaxH3ToChildrenSize.c */; };
-		ADEA017620303A2B000C2FD2 /* testPolyfill.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA00B820303A2B000C2FD2 /* testPolyfill.c */; };
-		ADEA017720303A2B000C2FD2 /* testVertexGraph.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA00B920303A2B000C2FD2 /* testVertexGraph.c */; };
 		ADEA017820303A2B000C2FD2 /* algos.h in Headers */ = {isa = PBXBuildFile; fileRef = ADEA00BC20303A2B000C2FD2 /* algos.h */; };
 		ADEA017920303A2B000C2FD2 /* baseCells.h in Headers */ = {isa = PBXBuildFile; fileRef = ADEA00BD20303A2B000C2FD2 /* baseCells.h */; };
 		ADEA017A20303A2B000C2FD2 /* bbox.h in Headers */ = {isa = PBXBuildFile; fileRef = ADEA00BE20303A2B000C2FD2 /* bbox.h */; };
@@ -93,49 +50,6 @@
 		ADEA005E20303A2B000C2FD2 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
 		ADEA008120303A2B000C2FD2 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		ADEA008220303A2B000C2FD2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		ADEA008A20303A2B000C2FD2 /* benchmark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = benchmark.h; sourceTree = "<group>"; };
-		ADEA008B20303A2B000C2FD2 /* kml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kml.h; sourceTree = "<group>"; };
-		ADEA008C20303A2B000C2FD2 /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
-		ADEA008D20303A2B000C2FD2 /* utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utility.h; sourceTree = "<group>"; };
-		ADEA008F20303A2B000C2FD2 /* kml.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kml.c; sourceTree = "<group>"; };
-		ADEA009020303A2B000C2FD2 /* test.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = test.c; sourceTree = "<group>"; };
-		ADEA009120303A2B000C2FD2 /* utility.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = utility.c; sourceTree = "<group>"; };
-		ADEA009320303A2B000C2FD2 /* benchmarkH3Api.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = benchmarkH3Api.c; sourceTree = "<group>"; };
-		ADEA009420303A2B000C2FD2 /* benchmarkPolyfill.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = benchmarkPolyfill.c; sourceTree = "<group>"; };
-		ADEA009620303A2B000C2FD2 /* geoToH3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = geoToH3.c; sourceTree = "<group>"; };
-		ADEA009720303A2B000C2FD2 /* h3ToComponents.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = h3ToComponents.c; sourceTree = "<group>"; };
-		ADEA009820303A2B000C2FD2 /* h3ToGeo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = h3ToGeo.c; sourceTree = "<group>"; };
-		ADEA009920303A2B000C2FD2 /* h3ToGeoBoundary.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = h3ToGeoBoundary.c; sourceTree = "<group>"; };
-		ADEA009A20303A2B000C2FD2 /* hexRange.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hexRange.c; sourceTree = "<group>"; };
-		ADEA009B20303A2B000C2FD2 /* kRing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kRing.c; sourceTree = "<group>"; };
-		ADEA009D20303A2B000C2FD2 /* generateBaseCellNeighbors.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = generateBaseCellNeighbors.c; sourceTree = "<group>"; };
-		ADEA009E20303A2B000C2FD2 /* h3ToGeoBoundaryHier.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = h3ToGeoBoundaryHier.c; sourceTree = "<group>"; };
-		ADEA009F20303A2B000C2FD2 /* h3ToGeoHier.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = h3ToGeoHier.c; sourceTree = "<group>"; };
-		ADEA00A020303A2B000C2FD2 /* h3ToHier.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = h3ToHier.c; sourceTree = "<group>"; };
-		ADEA00A220303A2B000C2FD2 /* mkRandGeo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mkRandGeo.c; sourceTree = "<group>"; };
-		ADEA00A320303A2B000C2FD2 /* mkRandGeoBoundary.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mkRandGeoBoundary.c; sourceTree = "<group>"; };
-		ADEA00A420303A2B000C2FD2 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
-		ADEA00A520303A2B000C2FD2 /* testBBox.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = testBBox.c; sourceTree = "<group>"; };
-		ADEA00A620303A2B000C2FD2 /* testCompact.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = testCompact.c; sourceTree = "<group>"; };
-		ADEA00A720303A2B000C2FD2 /* testGeoCoord.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = testGeoCoord.c; sourceTree = "<group>"; };
-		ADEA00A820303A2B000C2FD2 /* testGeoToH3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = testGeoToH3.c; sourceTree = "<group>"; };
-		ADEA00A920303A2B000C2FD2 /* testH3Api.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = testH3Api.c; sourceTree = "<group>"; };
-		ADEA00AA20303A2B000C2FD2 /* testH3Index.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = testH3Index.c; sourceTree = "<group>"; };
-		ADEA00AB20303A2B000C2FD2 /* testH3NeighborRotations.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = testH3NeighborRotations.c; sourceTree = "<group>"; };
-		ADEA00AC20303A2B000C2FD2 /* testH3SetToLinkedGeo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = testH3SetToLinkedGeo.c; sourceTree = "<group>"; };
-		ADEA00AD20303A2B000C2FD2 /* testH3SetToVertexGraph.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = testH3SetToVertexGraph.c; sourceTree = "<group>"; };
-		ADEA00AE20303A2B000C2FD2 /* testH3ToChildren.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = testH3ToChildren.c; sourceTree = "<group>"; };
-		ADEA00AF20303A2B000C2FD2 /* testH3ToGeo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = testH3ToGeo.c; sourceTree = "<group>"; };
-		ADEA00B020303A2B000C2FD2 /* testH3ToGeoBoundary.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = testH3ToGeoBoundary.c; sourceTree = "<group>"; };
-		ADEA00B120303A2B000C2FD2 /* testH3ToParent.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = testH3ToParent.c; sourceTree = "<group>"; };
-		ADEA00B220303A2B000C2FD2 /* testH3UniEdge.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = testH3UniEdge.c; sourceTree = "<group>"; };
-		ADEA00B320303A2B000C2FD2 /* testHexRanges.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = testHexRanges.c; sourceTree = "<group>"; };
-		ADEA00B420303A2B000C2FD2 /* testHexRing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = testHexRing.c; sourceTree = "<group>"; };
-		ADEA00B520303A2B000C2FD2 /* testKRing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = testKRing.c; sourceTree = "<group>"; };
-		ADEA00B620303A2B000C2FD2 /* testLinkedGeo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = testLinkedGeo.c; sourceTree = "<group>"; };
-		ADEA00B720303A2B000C2FD2 /* testMaxH3ToChildrenSize.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = testMaxH3ToChildrenSize.c; sourceTree = "<group>"; };
-		ADEA00B820303A2B000C2FD2 /* testPolyfill.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = testPolyfill.c; sourceTree = "<group>"; };
-		ADEA00B920303A2B000C2FD2 /* testVertexGraph.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = testVertexGraph.c; sourceTree = "<group>"; };
 		ADEA00BC20303A2B000C2FD2 /* algos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = algos.h; sourceTree = "<group>"; };
 		ADEA00BD20303A2B000C2FD2 /* baseCells.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baseCells.h; sourceTree = "<group>"; };
 		ADEA00BE20303A2B000C2FD2 /* bbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bbox.h; sourceTree = "<group>"; };
@@ -219,116 +133,9 @@
 		ADEA008620303A2B000C2FD2 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				ADEA008720303A2B000C2FD2 /* apps */,
 				ADEA00BA20303A2B000C2FD2 /* h3lib */,
 			);
 			path = src;
-			sourceTree = "<group>";
-		};
-		ADEA008720303A2B000C2FD2 /* apps */ = {
-			isa = PBXGroup;
-			children = (
-				ADEA008820303A2B000C2FD2 /* applib */,
-				ADEA009220303A2B000C2FD2 /* benchmarks */,
-				ADEA009520303A2B000C2FD2 /* filters */,
-				ADEA009C20303A2B000C2FD2 /* miscapps */,
-				ADEA00A120303A2B000C2FD2 /* testapps */,
-			);
-			path = apps;
-			sourceTree = "<group>";
-		};
-		ADEA008820303A2B000C2FD2 /* applib */ = {
-			isa = PBXGroup;
-			children = (
-				ADEA008920303A2B000C2FD2 /* include */,
-				ADEA008E20303A2B000C2FD2 /* lib */,
-			);
-			path = applib;
-			sourceTree = "<group>";
-		};
-		ADEA008920303A2B000C2FD2 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				ADEA008A20303A2B000C2FD2 /* benchmark.h */,
-				ADEA008B20303A2B000C2FD2 /* kml.h */,
-				ADEA008C20303A2B000C2FD2 /* test.h */,
-				ADEA008D20303A2B000C2FD2 /* utility.h */,
-			);
-			path = include;
-			sourceTree = "<group>";
-		};
-		ADEA008E20303A2B000C2FD2 /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				ADEA008F20303A2B000C2FD2 /* kml.c */,
-				ADEA009020303A2B000C2FD2 /* test.c */,
-				ADEA009120303A2B000C2FD2 /* utility.c */,
-			);
-			path = lib;
-			sourceTree = "<group>";
-		};
-		ADEA009220303A2B000C2FD2 /* benchmarks */ = {
-			isa = PBXGroup;
-			children = (
-				ADEA009320303A2B000C2FD2 /* benchmarkH3Api.c */,
-				ADEA009420303A2B000C2FD2 /* benchmarkPolyfill.c */,
-			);
-			path = benchmarks;
-			sourceTree = "<group>";
-		};
-		ADEA009520303A2B000C2FD2 /* filters */ = {
-			isa = PBXGroup;
-			children = (
-				ADEA009620303A2B000C2FD2 /* geoToH3.c */,
-				ADEA009720303A2B000C2FD2 /* h3ToComponents.c */,
-				ADEA009820303A2B000C2FD2 /* h3ToGeo.c */,
-				ADEA009920303A2B000C2FD2 /* h3ToGeoBoundary.c */,
-				ADEA009A20303A2B000C2FD2 /* hexRange.c */,
-				ADEA009B20303A2B000C2FD2 /* kRing.c */,
-			);
-			path = filters;
-			sourceTree = "<group>";
-		};
-		ADEA009C20303A2B000C2FD2 /* miscapps */ = {
-			isa = PBXGroup;
-			children = (
-				ADEA009D20303A2B000C2FD2 /* generateBaseCellNeighbors.c */,
-				ADEA009E20303A2B000C2FD2 /* h3ToGeoBoundaryHier.c */,
-				ADEA009F20303A2B000C2FD2 /* h3ToGeoHier.c */,
-				ADEA00A020303A2B000C2FD2 /* h3ToHier.c */,
-			);
-			path = miscapps;
-			sourceTree = "<group>";
-		};
-		ADEA00A120303A2B000C2FD2 /* testapps */ = {
-			isa = PBXGroup;
-			children = (
-				ADEA00A220303A2B000C2FD2 /* mkRandGeo.c */,
-				ADEA00A320303A2B000C2FD2 /* mkRandGeoBoundary.c */,
-				ADEA00A420303A2B000C2FD2 /* README.txt */,
-				ADEA00A520303A2B000C2FD2 /* testBBox.c */,
-				ADEA00A620303A2B000C2FD2 /* testCompact.c */,
-				ADEA00A720303A2B000C2FD2 /* testGeoCoord.c */,
-				ADEA00A820303A2B000C2FD2 /* testGeoToH3.c */,
-				ADEA00A920303A2B000C2FD2 /* testH3Api.c */,
-				ADEA00AA20303A2B000C2FD2 /* testH3Index.c */,
-				ADEA00AB20303A2B000C2FD2 /* testH3NeighborRotations.c */,
-				ADEA00AC20303A2B000C2FD2 /* testH3SetToLinkedGeo.c */,
-				ADEA00AD20303A2B000C2FD2 /* testH3SetToVertexGraph.c */,
-				ADEA00AE20303A2B000C2FD2 /* testH3ToChildren.c */,
-				ADEA00AF20303A2B000C2FD2 /* testH3ToGeo.c */,
-				ADEA00B020303A2B000C2FD2 /* testH3ToGeoBoundary.c */,
-				ADEA00B120303A2B000C2FD2 /* testH3ToParent.c */,
-				ADEA00B220303A2B000C2FD2 /* testH3UniEdge.c */,
-				ADEA00B320303A2B000C2FD2 /* testHexRanges.c */,
-				ADEA00B420303A2B000C2FD2 /* testHexRing.c */,
-				ADEA00B520303A2B000C2FD2 /* testKRing.c */,
-				ADEA00B620303A2B000C2FD2 /* testLinkedGeo.c */,
-				ADEA00B720303A2B000C2FD2 /* testMaxH3ToChildrenSize.c */,
-				ADEA00B820303A2B000C2FD2 /* testPolyfill.c */,
-				ADEA00B920303A2B000C2FD2 /* testVertexGraph.c */,
-			);
-			path = testapps;
 			sourceTree = "<group>";
 		};
 		ADEA00BA20303A2B000C2FD2 /* h3lib */ = {
@@ -388,19 +195,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADEA018020303A2B000C2FD2 /* h3Index.h in Headers */,
-				ADEA015020303A2B000C2FD2 /* utility.h in Headers */,
-				ADEA014F20303A2B000C2FD2 /* test.h in Headers */,
 				ADEA018320303A2B000C2FD2 /* mathExtensions.h in Headers */,
 				ADEA018220303A2B000C2FD2 /* linkedGeo.h in Headers */,
 				ADEA017E20303A2B000C2FD2 /* geoCoord.h in Headers */,
 				ADEA017F20303A2B000C2FD2 /* h3api.h in Headers */,
-				ADEA014E20303A2B000C2FD2 /* kml.h in Headers */,
 				ADEA017B20303A2B000C2FD2 /* constants.h in Headers */,
 				ADEA018120303A2B000C2FD2 /* h3UniEdge.h in Headers */,
 				ADEA018520303A2B000C2FD2 /* vertexGraph.h in Headers */,
 				ADEA017920303A2B000C2FD2 /* baseCells.h in Headers */,
 				ADEA017820303A2B000C2FD2 /* algos.h in Headers */,
-				ADEA014D20303A2B000C2FD2 /* benchmark.h in Headers */,
 				AD4B83EE2027C04900D116BA /* h3_swift.h in Headers */,
 				ADEA017D20303A2B000C2FD2 /* faceijk.h in Headers */,
 				ADEA018420303A2B000C2FD2 /* vec2d.h in Headers */,
@@ -471,7 +274,6 @@
 			files = (
 				ADEA014920303A2B000C2FD2 /* LICENSE in Resources */,
 				ADEA01E120303A2B000C2FD2 /* VERSION in Resources */,
-				ADEA016220303A2B000C2FD2 /* README.txt in Resources */,
 				ADEA012B20303A2B000C2FD2 /* CHANGELOG.md in Resources */,
 				ADEA014A20303A2B000C2FD2 /* README.md in Resources */,
 			);
@@ -484,57 +286,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADEA017520303A2B000C2FD2 /* testMaxH3ToChildrenSize.c in Sources */,
-				ADEA017020303A2B000C2FD2 /* testH3UniEdge.c in Sources */,
-				ADEA015320303A2B000C2FD2 /* utility.c in Sources */,
-				ADEA016D20303A2B000C2FD2 /* testH3ToGeo.c in Sources */,
-				ADEA015820303A2B000C2FD2 /* h3ToGeo.c in Sources */,
-				ADEA015420303A2B000C2FD2 /* benchmarkH3Api.c in Sources */,
 				ADEA019020303A2B000C2FD2 /* vec2d.c in Sources */,
-				ADEA015B20303A2B000C2FD2 /* kRing.c in Sources */,
-				ADEA016020303A2B000C2FD2 /* mkRandGeo.c in Sources */,
-				ADEA015920303A2B000C2FD2 /* h3ToGeoBoundary.c in Sources */,
-				ADEA015C20303A2B000C2FD2 /* generateBaseCellNeighbors.c in Sources */,
-				ADEA015520303A2B000C2FD2 /* benchmarkPolyfill.c in Sources */,
-				ADEA016F20303A2B000C2FD2 /* testH3ToParent.c in Sources */,
-				ADEA015620303A2B000C2FD2 /* geoToH3.c in Sources */,
 				ADEA018B20303A2B000C2FD2 /* geoCoord.c in Sources */,
-				ADEA016720303A2B000C2FD2 /* testH3Api.c in Sources */,
-				ADEA016520303A2B000C2FD2 /* testGeoCoord.c in Sources */,
 				ADEA018620303A2B000C2FD2 /* algos.c in Sources */,
-				ADEA016B20303A2B000C2FD2 /* testH3SetToVertexGraph.c in Sources */,
-				ADEA016420303A2B000C2FD2 /* testCompact.c in Sources */,
-				ADEA016120303A2B000C2FD2 /* mkRandGeoBoundary.c in Sources */,
-				ADEA017720303A2B000C2FD2 /* testVertexGraph.c in Sources */,
-				ADEA017220303A2B000C2FD2 /* testHexRing.c in Sources */,
-				ADEA015120303A2B000C2FD2 /* kml.c in Sources */,
-				ADEA015A20303A2B000C2FD2 /* hexRange.c in Sources */,
-				ADEA016E20303A2B000C2FD2 /* testH3ToGeoBoundary.c in Sources */,
-				ADEA015D20303A2B000C2FD2 /* h3ToGeoBoundaryHier.c in Sources */,
 				ADEA018E20303A2B000C2FD2 /* linkedGeo.c in Sources */,
-				ADEA016920303A2B000C2FD2 /* testH3NeighborRotations.c in Sources */,
-				ADEA016620303A2B000C2FD2 /* testGeoToH3.c in Sources */,
 				ADEA018820303A2B000C2FD2 /* bbox.c in Sources */,
 				ADEA018A20303A2B000C2FD2 /* faceijk.c in Sources */,
-				ADEA015F20303A2B000C2FD2 /* h3ToHier.c in Sources */,
 				ADB917122030CCBD007CFF0B /* h3-swift.swift in Sources */,
-				ADEA017320303A2B000C2FD2 /* testKRing.c in Sources */,
 				ADEA018920303A2B000C2FD2 /* coordijk.c in Sources */,
 				ADEA018C20303A2B000C2FD2 /* h3Index.c in Sources */,
 				ADEA019120303A2B000C2FD2 /* vertexGraph.c in Sources */,
-				ADEA015220303A2B000C2FD2 /* test.c in Sources */,
-				ADEA017120303A2B000C2FD2 /* testHexRanges.c in Sources */,
 				ADEA018F20303A2B000C2FD2 /* mathExtensions.c in Sources */,
-				ADEA016820303A2B000C2FD2 /* testH3Index.c in Sources */,
 				ADEA018720303A2B000C2FD2 /* baseCells.c in Sources */,
 				ADEA018D20303A2B000C2FD2 /* h3UniEdge.c in Sources */,
-				ADEA016C20303A2B000C2FD2 /* testH3ToChildren.c in Sources */,
-				ADEA017620303A2B000C2FD2 /* testPolyfill.c in Sources */,
-				ADEA015720303A2B000C2FD2 /* h3ToComponents.c in Sources */,
-				ADEA017420303A2B000C2FD2 /* testLinkedGeo.c in Sources */,
-				ADEA016320303A2B000C2FD2 /* testBBox.c in Sources */,
-				ADEA016A20303A2B000C2FD2 /* testH3SetToLinkedGeo.c in Sources */,
-				ADEA015E20303A2B000C2FD2 /* h3ToGeoHier.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
