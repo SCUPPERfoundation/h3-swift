@@ -8,36 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		AD4B83EE2027C04900D116BA /* h3_swift.h in Headers */ = {isa = PBXBuildFile; fileRef = AD4B83EC2027C04900D116BA /* h3_swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADA089CB23F722DD009C362E /* bbox.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA0896423F722DD009C362E /* bbox.h */; };
+		ADA089CC23F722DD009C362E /* polygonAlgos.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA0896523F722DD009C362E /* polygonAlgos.h */; };
+		ADA089CD23F722DD009C362E /* polygon.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA0896623F722DD009C362E /* polygon.h */; };
+		ADA089CE23F722DD009C362E /* h3Index.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA0896723F722DD009C362E /* h3Index.h */; };
+		ADA089CF23F722DD009C362E /* h3UniEdge.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA0896823F722DD009C362E /* h3UniEdge.h */; };
+		ADA089D023F722DD009C362E /* geoCoord.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA0896923F722DD009C362E /* geoCoord.h */; };
+		ADA089D123F722DD009C362E /* vec2d.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA0896A23F722DD009C362E /* vec2d.h */; };
+		ADA089D223F722DD009C362E /* linkedGeo.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA0896B23F722DD009C362E /* linkedGeo.h */; };
+		ADA089D323F722DD009C362E /* baseCells.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA0896C23F722DD009C362E /* baseCells.h */; };
+		ADA089D423F722DD009C362E /* vec3d.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA0896D23F722DD009C362E /* vec3d.h */; };
+		ADA089D523F722DD009C362E /* faceijk.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA0896E23F722DD009C362E /* faceijk.h */; };
+		ADA089D623F722DD009C362E /* vertexGraph.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA0896F23F722DD009C362E /* vertexGraph.h */; };
+		ADA089D723F722DD009C362E /* mathExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA0897023F722DD009C362E /* mathExtensions.h */; };
+		ADA089D823F722DD009C362E /* constants.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA0897123F722DD009C362E /* constants.h */; };
+		ADA089D923F722DD009C362E /* coordijk.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA0897223F722DD009C362E /* coordijk.h */; };
+		ADA089DA23F722DD009C362E /* localij.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA0897323F722DD009C362E /* localij.h */; };
+		ADA089DB23F722DD009C362E /* algos.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA0897423F722DD009C362E /* algos.h */; };
+		ADA089DC23F722DD009C362E /* h3api.h.in in Resources */ = {isa = PBXBuildFile; fileRef = ADA0897523F722DD009C362E /* h3api.h.in */; };
+		ADA089DD23F722DD009C362E /* algos.c in Sources */ = {isa = PBXBuildFile; fileRef = ADA0897723F722DD009C362E /* algos.c */; };
+		ADA089DE23F722DD009C362E /* localij.c in Sources */ = {isa = PBXBuildFile; fileRef = ADA0897823F722DD009C362E /* localij.c */; };
+		ADA089DF23F722DD009C362E /* coordijk.c in Sources */ = {isa = PBXBuildFile; fileRef = ADA0897923F722DD009C362E /* coordijk.c */; };
+		ADA089E023F722DD009C362E /* polygon.c in Sources */ = {isa = PBXBuildFile; fileRef = ADA0897A23F722DD009C362E /* polygon.c */; };
+		ADA089E123F722DD009C362E /* bbox.c in Sources */ = {isa = PBXBuildFile; fileRef = ADA0897B23F722DD009C362E /* bbox.c */; };
+		ADA089E223F722DD009C362E /* h3Index.c in Sources */ = {isa = PBXBuildFile; fileRef = ADA0897C23F722DD009C362E /* h3Index.c */; };
+		ADA089E323F722DD009C362E /* vec2d.c in Sources */ = {isa = PBXBuildFile; fileRef = ADA0897D23F722DD009C362E /* vec2d.c */; };
+		ADA089E423F722DD009C362E /* linkedGeo.c in Sources */ = {isa = PBXBuildFile; fileRef = ADA0897E23F722DD009C362E /* linkedGeo.c */; };
+		ADA089E523F722DD009C362E /* geoCoord.c in Sources */ = {isa = PBXBuildFile; fileRef = ADA0897F23F722DD009C362E /* geoCoord.c */; };
+		ADA089E623F722DD009C362E /* h3UniEdge.c in Sources */ = {isa = PBXBuildFile; fileRef = ADA0898023F722DD009C362E /* h3UniEdge.c */; };
+		ADA089E723F722DD009C362E /* mathExtensions.c in Sources */ = {isa = PBXBuildFile; fileRef = ADA0898123F722DD009C362E /* mathExtensions.c */; };
+		ADA089E823F722DD009C362E /* vec3d.c in Sources */ = {isa = PBXBuildFile; fileRef = ADA0898223F722DD009C362E /* vec3d.c */; };
+		ADA089E923F722DD009C362E /* vertexGraph.c in Sources */ = {isa = PBXBuildFile; fileRef = ADA0898323F722DD009C362E /* vertexGraph.c */; };
+		ADA089EA23F722DD009C362E /* faceijk.c in Sources */ = {isa = PBXBuildFile; fileRef = ADA0898423F722DD009C362E /* faceijk.c */; };
+		ADA089EB23F722DD009C362E /* baseCells.c in Sources */ = {isa = PBXBuildFile; fileRef = ADA0898523F722DD009C362E /* baseCells.c */; };
 		ADB917122030CCBD007CFF0B /* h3-swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB917112030CCBD007CFF0B /* h3-swift.swift */; };
-		ADEA012B20303A2B000C2FD2 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = ADEA005E20303A2B000C2FD2 /* CHANGELOG.md */; };
-		ADEA014920303A2B000C2FD2 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = ADEA008120303A2B000C2FD2 /* LICENSE */; };
 		ADEA014A20303A2B000C2FD2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = ADEA008220303A2B000C2FD2 /* README.md */; };
-		ADEA017820303A2B000C2FD2 /* algos.h in Headers */ = {isa = PBXBuildFile; fileRef = ADEA00BC20303A2B000C2FD2 /* algos.h */; };
-		ADEA017920303A2B000C2FD2 /* baseCells.h in Headers */ = {isa = PBXBuildFile; fileRef = ADEA00BD20303A2B000C2FD2 /* baseCells.h */; };
-		ADEA017A20303A2B000C2FD2 /* bbox.h in Headers */ = {isa = PBXBuildFile; fileRef = ADEA00BE20303A2B000C2FD2 /* bbox.h */; };
-		ADEA017B20303A2B000C2FD2 /* constants.h in Headers */ = {isa = PBXBuildFile; fileRef = ADEA00BF20303A2B000C2FD2 /* constants.h */; };
-		ADEA017C20303A2B000C2FD2 /* coordijk.h in Headers */ = {isa = PBXBuildFile; fileRef = ADEA00C020303A2B000C2FD2 /* coordijk.h */; };
-		ADEA017D20303A2B000C2FD2 /* faceijk.h in Headers */ = {isa = PBXBuildFile; fileRef = ADEA00C120303A2B000C2FD2 /* faceijk.h */; };
-		ADEA017E20303A2B000C2FD2 /* geoCoord.h in Headers */ = {isa = PBXBuildFile; fileRef = ADEA00C220303A2B000C2FD2 /* geoCoord.h */; };
-		ADEA017F20303A2B000C2FD2 /* h3api.h in Headers */ = {isa = PBXBuildFile; fileRef = ADEA00C320303A2B000C2FD2 /* h3api.h */; };
-		ADEA018020303A2B000C2FD2 /* h3Index.h in Headers */ = {isa = PBXBuildFile; fileRef = ADEA00C420303A2B000C2FD2 /* h3Index.h */; };
-		ADEA018120303A2B000C2FD2 /* h3UniEdge.h in Headers */ = {isa = PBXBuildFile; fileRef = ADEA00C520303A2B000C2FD2 /* h3UniEdge.h */; };
-		ADEA018220303A2B000C2FD2 /* linkedGeo.h in Headers */ = {isa = PBXBuildFile; fileRef = ADEA00C620303A2B000C2FD2 /* linkedGeo.h */; };
-		ADEA018320303A2B000C2FD2 /* mathExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = ADEA00C720303A2B000C2FD2 /* mathExtensions.h */; };
-		ADEA018420303A2B000C2FD2 /* vec2d.h in Headers */ = {isa = PBXBuildFile; fileRef = ADEA00C820303A2B000C2FD2 /* vec2d.h */; };
-		ADEA018520303A2B000C2FD2 /* vertexGraph.h in Headers */ = {isa = PBXBuildFile; fileRef = ADEA00C920303A2B000C2FD2 /* vertexGraph.h */; };
-		ADEA018620303A2B000C2FD2 /* algos.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA00CB20303A2B000C2FD2 /* algos.c */; };
-		ADEA018720303A2B000C2FD2 /* baseCells.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA00CC20303A2B000C2FD2 /* baseCells.c */; };
-		ADEA018820303A2B000C2FD2 /* bbox.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA00CD20303A2B000C2FD2 /* bbox.c */; };
-		ADEA018920303A2B000C2FD2 /* coordijk.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA00CE20303A2B000C2FD2 /* coordijk.c */; };
-		ADEA018A20303A2B000C2FD2 /* faceijk.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA00CF20303A2B000C2FD2 /* faceijk.c */; };
-		ADEA018B20303A2B000C2FD2 /* geoCoord.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA00D020303A2B000C2FD2 /* geoCoord.c */; };
-		ADEA018C20303A2B000C2FD2 /* h3Index.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA00D120303A2B000C2FD2 /* h3Index.c */; };
-		ADEA018D20303A2B000C2FD2 /* h3UniEdge.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA00D220303A2B000C2FD2 /* h3UniEdge.c */; };
-		ADEA018E20303A2B000C2FD2 /* linkedGeo.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA00D320303A2B000C2FD2 /* linkedGeo.c */; };
-		ADEA018F20303A2B000C2FD2 /* mathExtensions.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA00D420303A2B000C2FD2 /* mathExtensions.c */; };
-		ADEA019020303A2B000C2FD2 /* vec2d.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA00D520303A2B000C2FD2 /* vec2d.c */; };
-		ADEA019120303A2B000C2FD2 /* vertexGraph.c in Sources */ = {isa = PBXBuildFile; fileRef = ADEA00D620303A2B000C2FD2 /* vertexGraph.c */; };
 		ADEA01E120303A2B000C2FD2 /* VERSION in Resources */ = {isa = PBXBuildFile; fileRef = ADEA012820303A2B000C2FD2 /* VERSION */; };
 /* End PBXBuildFile section */
 
@@ -46,36 +51,41 @@
 		AD4B83EC2027C04900D116BA /* h3_swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = h3_swift.h; sourceTree = "<group>"; };
 		AD4B83ED2027C04900D116BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD71F4F02030DE4900B92D8E /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		ADA0896423F722DD009C362E /* bbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bbox.h; sourceTree = "<group>"; };
+		ADA0896523F722DD009C362E /* polygonAlgos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = polygonAlgos.h; sourceTree = "<group>"; };
+		ADA0896623F722DD009C362E /* polygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = polygon.h; sourceTree = "<group>"; };
+		ADA0896723F722DD009C362E /* h3Index.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = h3Index.h; sourceTree = "<group>"; };
+		ADA0896823F722DD009C362E /* h3UniEdge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = h3UniEdge.h; sourceTree = "<group>"; };
+		ADA0896923F722DD009C362E /* geoCoord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = geoCoord.h; sourceTree = "<group>"; };
+		ADA0896A23F722DD009C362E /* vec2d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vec2d.h; sourceTree = "<group>"; };
+		ADA0896B23F722DD009C362E /* linkedGeo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = linkedGeo.h; sourceTree = "<group>"; };
+		ADA0896C23F722DD009C362E /* baseCells.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baseCells.h; sourceTree = "<group>"; };
+		ADA0896D23F722DD009C362E /* vec3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vec3d.h; sourceTree = "<group>"; };
+		ADA0896E23F722DD009C362E /* faceijk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = faceijk.h; sourceTree = "<group>"; };
+		ADA0896F23F722DD009C362E /* vertexGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vertexGraph.h; sourceTree = "<group>"; };
+		ADA0897023F722DD009C362E /* mathExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mathExtensions.h; sourceTree = "<group>"; };
+		ADA0897123F722DD009C362E /* constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
+		ADA0897223F722DD009C362E /* coordijk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coordijk.h; sourceTree = "<group>"; };
+		ADA0897323F722DD009C362E /* localij.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = localij.h; sourceTree = "<group>"; };
+		ADA0897423F722DD009C362E /* algos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = algos.h; sourceTree = "<group>"; };
+		ADA0897523F722DD009C362E /* h3api.h.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = h3api.h.in; sourceTree = "<group>"; };
+		ADA0897723F722DD009C362E /* algos.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = algos.c; sourceTree = "<group>"; };
+		ADA0897823F722DD009C362E /* localij.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = localij.c; sourceTree = "<group>"; };
+		ADA0897923F722DD009C362E /* coordijk.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = coordijk.c; sourceTree = "<group>"; };
+		ADA0897A23F722DD009C362E /* polygon.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = polygon.c; sourceTree = "<group>"; };
+		ADA0897B23F722DD009C362E /* bbox.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bbox.c; sourceTree = "<group>"; };
+		ADA0897C23F722DD009C362E /* h3Index.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = h3Index.c; sourceTree = "<group>"; };
+		ADA0897D23F722DD009C362E /* vec2d.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vec2d.c; sourceTree = "<group>"; };
+		ADA0897E23F722DD009C362E /* linkedGeo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = linkedGeo.c; sourceTree = "<group>"; };
+		ADA0897F23F722DD009C362E /* geoCoord.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = geoCoord.c; sourceTree = "<group>"; };
+		ADA0898023F722DD009C362E /* h3UniEdge.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = h3UniEdge.c; sourceTree = "<group>"; };
+		ADA0898123F722DD009C362E /* mathExtensions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mathExtensions.c; sourceTree = "<group>"; };
+		ADA0898223F722DD009C362E /* vec3d.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vec3d.c; sourceTree = "<group>"; };
+		ADA0898323F722DD009C362E /* vertexGraph.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vertexGraph.c; sourceTree = "<group>"; };
+		ADA0898423F722DD009C362E /* faceijk.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = faceijk.c; sourceTree = "<group>"; };
+		ADA0898523F722DD009C362E /* baseCells.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = baseCells.c; sourceTree = "<group>"; };
 		ADB917112030CCBD007CFF0B /* h3-swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "h3-swift.swift"; sourceTree = "<group>"; };
-		ADEA005E20303A2B000C2FD2 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
-		ADEA008120303A2B000C2FD2 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		ADEA008220303A2B000C2FD2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		ADEA00BC20303A2B000C2FD2 /* algos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = algos.h; sourceTree = "<group>"; };
-		ADEA00BD20303A2B000C2FD2 /* baseCells.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baseCells.h; sourceTree = "<group>"; };
-		ADEA00BE20303A2B000C2FD2 /* bbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bbox.h; sourceTree = "<group>"; };
-		ADEA00BF20303A2B000C2FD2 /* constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
-		ADEA00C020303A2B000C2FD2 /* coordijk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coordijk.h; sourceTree = "<group>"; };
-		ADEA00C120303A2B000C2FD2 /* faceijk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = faceijk.h; sourceTree = "<group>"; };
-		ADEA00C220303A2B000C2FD2 /* geoCoord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = geoCoord.h; sourceTree = "<group>"; };
-		ADEA00C320303A2B000C2FD2 /* h3api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = h3api.h; sourceTree = "<group>"; };
-		ADEA00C420303A2B000C2FD2 /* h3Index.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = h3Index.h; sourceTree = "<group>"; };
-		ADEA00C520303A2B000C2FD2 /* h3UniEdge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = h3UniEdge.h; sourceTree = "<group>"; };
-		ADEA00C620303A2B000C2FD2 /* linkedGeo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = linkedGeo.h; sourceTree = "<group>"; };
-		ADEA00C720303A2B000C2FD2 /* mathExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mathExtensions.h; sourceTree = "<group>"; };
-		ADEA00C820303A2B000C2FD2 /* vec2d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vec2d.h; sourceTree = "<group>"; };
-		ADEA00C920303A2B000C2FD2 /* vertexGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vertexGraph.h; sourceTree = "<group>"; };
-		ADEA00CB20303A2B000C2FD2 /* algos.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = algos.c; sourceTree = "<group>"; };
-		ADEA00CC20303A2B000C2FD2 /* baseCells.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = baseCells.c; sourceTree = "<group>"; };
-		ADEA00CD20303A2B000C2FD2 /* bbox.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bbox.c; sourceTree = "<group>"; };
-		ADEA00CE20303A2B000C2FD2 /* coordijk.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = coordijk.c; sourceTree = "<group>"; };
-		ADEA00CF20303A2B000C2FD2 /* faceijk.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = faceijk.c; sourceTree = "<group>"; };
-		ADEA00D020303A2B000C2FD2 /* geoCoord.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = geoCoord.c; sourceTree = "<group>"; };
-		ADEA00D120303A2B000C2FD2 /* h3Index.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = h3Index.c; sourceTree = "<group>"; };
-		ADEA00D220303A2B000C2FD2 /* h3UniEdge.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = h3UniEdge.c; sourceTree = "<group>"; };
-		ADEA00D320303A2B000C2FD2 /* linkedGeo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = linkedGeo.c; sourceTree = "<group>"; };
-		ADEA00D420303A2B000C2FD2 /* mathExtensions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mathExtensions.c; sourceTree = "<group>"; };
-		ADEA00D520303A2B000C2FD2 /* vec2d.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vec2d.c; sourceTree = "<group>"; };
-		ADEA00D620303A2B000C2FD2 /* vertexGraph.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vertexGraph.c; sourceTree = "<group>"; };
 		ADEA012820303A2B000C2FD2 /* VERSION */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VERSION; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,73 +128,78 @@
 			path = "h3-swift";
 			sourceTree = "<group>";
 		};
-		ADEA005B20303A2B000C2FD2 /* h3 */ = {
+		ADA0891423F722DD009C362E /* src */ = {
 			isa = PBXGroup;
 			children = (
-				ADEA005E20303A2B000C2FD2 /* CHANGELOG.md */,
-				ADEA008120303A2B000C2FD2 /* LICENSE */,
-				ADEA008220303A2B000C2FD2 /* README.md */,
-				ADEA008620303A2B000C2FD2 /* src */,
-				ADEA012820303A2B000C2FD2 /* VERSION */,
-			);
-			path = h3;
-			sourceTree = "<group>";
-		};
-		ADEA008620303A2B000C2FD2 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				ADEA00BA20303A2B000C2FD2 /* h3lib */,
+				ADA0896223F722DD009C362E /* h3lib */,
 			);
 			path = src;
 			sourceTree = "<group>";
 		};
-		ADEA00BA20303A2B000C2FD2 /* h3lib */ = {
+		ADA0896223F722DD009C362E /* h3lib */ = {
 			isa = PBXGroup;
 			children = (
-				ADEA00BB20303A2B000C2FD2 /* include */,
-				ADEA00CA20303A2B000C2FD2 /* lib */,
+				ADA0896323F722DD009C362E /* include */,
+				ADA0897623F722DD009C362E /* lib */,
 			);
 			path = h3lib;
 			sourceTree = "<group>";
 		};
-		ADEA00BB20303A2B000C2FD2 /* include */ = {
+		ADA0896323F722DD009C362E /* include */ = {
 			isa = PBXGroup;
 			children = (
-				ADEA00BC20303A2B000C2FD2 /* algos.h */,
-				ADEA00BD20303A2B000C2FD2 /* baseCells.h */,
-				ADEA00BE20303A2B000C2FD2 /* bbox.h */,
-				ADEA00BF20303A2B000C2FD2 /* constants.h */,
-				ADEA00C020303A2B000C2FD2 /* coordijk.h */,
-				ADEA00C120303A2B000C2FD2 /* faceijk.h */,
-				ADEA00C220303A2B000C2FD2 /* geoCoord.h */,
-				ADEA00C320303A2B000C2FD2 /* h3api.h */,
-				ADEA00C420303A2B000C2FD2 /* h3Index.h */,
-				ADEA00C520303A2B000C2FD2 /* h3UniEdge.h */,
-				ADEA00C620303A2B000C2FD2 /* linkedGeo.h */,
-				ADEA00C720303A2B000C2FD2 /* mathExtensions.h */,
-				ADEA00C820303A2B000C2FD2 /* vec2d.h */,
-				ADEA00C920303A2B000C2FD2 /* vertexGraph.h */,
+				ADA0896423F722DD009C362E /* bbox.h */,
+				ADA0896523F722DD009C362E /* polygonAlgos.h */,
+				ADA0896623F722DD009C362E /* polygon.h */,
+				ADA0896723F722DD009C362E /* h3Index.h */,
+				ADA0896823F722DD009C362E /* h3UniEdge.h */,
+				ADA0896923F722DD009C362E /* geoCoord.h */,
+				ADA0896A23F722DD009C362E /* vec2d.h */,
+				ADA0896B23F722DD009C362E /* linkedGeo.h */,
+				ADA0896C23F722DD009C362E /* baseCells.h */,
+				ADA0896D23F722DD009C362E /* vec3d.h */,
+				ADA0896E23F722DD009C362E /* faceijk.h */,
+				ADA0896F23F722DD009C362E /* vertexGraph.h */,
+				ADA0897023F722DD009C362E /* mathExtensions.h */,
+				ADA0897123F722DD009C362E /* constants.h */,
+				ADA0897223F722DD009C362E /* coordijk.h */,
+				ADA0897323F722DD009C362E /* localij.h */,
+				ADA0897423F722DD009C362E /* algos.h */,
+				ADA0897523F722DD009C362E /* h3api.h.in */,
 			);
 			path = include;
 			sourceTree = "<group>";
 		};
-		ADEA00CA20303A2B000C2FD2 /* lib */ = {
+		ADA0897623F722DD009C362E /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				ADEA00CB20303A2B000C2FD2 /* algos.c */,
-				ADEA00CC20303A2B000C2FD2 /* baseCells.c */,
-				ADEA00CD20303A2B000C2FD2 /* bbox.c */,
-				ADEA00CE20303A2B000C2FD2 /* coordijk.c */,
-				ADEA00CF20303A2B000C2FD2 /* faceijk.c */,
-				ADEA00D020303A2B000C2FD2 /* geoCoord.c */,
-				ADEA00D120303A2B000C2FD2 /* h3Index.c */,
-				ADEA00D220303A2B000C2FD2 /* h3UniEdge.c */,
-				ADEA00D320303A2B000C2FD2 /* linkedGeo.c */,
-				ADEA00D420303A2B000C2FD2 /* mathExtensions.c */,
-				ADEA00D520303A2B000C2FD2 /* vec2d.c */,
-				ADEA00D620303A2B000C2FD2 /* vertexGraph.c */,
+				ADA0897723F722DD009C362E /* algos.c */,
+				ADA0897823F722DD009C362E /* localij.c */,
+				ADA0897923F722DD009C362E /* coordijk.c */,
+				ADA0897A23F722DD009C362E /* polygon.c */,
+				ADA0897B23F722DD009C362E /* bbox.c */,
+				ADA0897C23F722DD009C362E /* h3Index.c */,
+				ADA0897D23F722DD009C362E /* vec2d.c */,
+				ADA0897E23F722DD009C362E /* linkedGeo.c */,
+				ADA0897F23F722DD009C362E /* geoCoord.c */,
+				ADA0898023F722DD009C362E /* h3UniEdge.c */,
+				ADA0898123F722DD009C362E /* mathExtensions.c */,
+				ADA0898223F722DD009C362E /* vec3d.c */,
+				ADA0898323F722DD009C362E /* vertexGraph.c */,
+				ADA0898423F722DD009C362E /* faceijk.c */,
+				ADA0898523F722DD009C362E /* baseCells.c */,
 			);
 			path = lib;
+			sourceTree = "<group>";
+		};
+		ADEA005B20303A2B000C2FD2 /* h3 */ = {
+			isa = PBXGroup;
+			children = (
+				ADA0891423F722DD009C362E /* src */,
+				ADEA008220303A2B000C2FD2 /* README.md */,
+				ADEA012820303A2B000C2FD2 /* VERSION */,
+			);
+			path = h3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,21 +209,24 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADEA018020303A2B000C2FD2 /* h3Index.h in Headers */,
-				ADEA018320303A2B000C2FD2 /* mathExtensions.h in Headers */,
-				ADEA018220303A2B000C2FD2 /* linkedGeo.h in Headers */,
-				ADEA017E20303A2B000C2FD2 /* geoCoord.h in Headers */,
-				ADEA017F20303A2B000C2FD2 /* h3api.h in Headers */,
-				ADEA017B20303A2B000C2FD2 /* constants.h in Headers */,
-				ADEA018120303A2B000C2FD2 /* h3UniEdge.h in Headers */,
-				ADEA018520303A2B000C2FD2 /* vertexGraph.h in Headers */,
-				ADEA017920303A2B000C2FD2 /* baseCells.h in Headers */,
-				ADEA017820303A2B000C2FD2 /* algos.h in Headers */,
+				ADA089D123F722DD009C362E /* vec2d.h in Headers */,
+				ADA089D323F722DD009C362E /* baseCells.h in Headers */,
+				ADA089D423F722DD009C362E /* vec3d.h in Headers */,
+				ADA089CF23F722DD009C362E /* h3UniEdge.h in Headers */,
+				ADA089D023F722DD009C362E /* geoCoord.h in Headers */,
+				ADA089DB23F722DD009C362E /* algos.h in Headers */,
+				ADA089CB23F722DD009C362E /* bbox.h in Headers */,
+				ADA089CC23F722DD009C362E /* polygonAlgos.h in Headers */,
+				ADA089D523F722DD009C362E /* faceijk.h in Headers */,
+				ADA089D923F722DD009C362E /* coordijk.h in Headers */,
+				ADA089D823F722DD009C362E /* constants.h in Headers */,
 				AD4B83EE2027C04900D116BA /* h3_swift.h in Headers */,
-				ADEA017D20303A2B000C2FD2 /* faceijk.h in Headers */,
-				ADEA018420303A2B000C2FD2 /* vec2d.h in Headers */,
-				ADEA017A20303A2B000C2FD2 /* bbox.h in Headers */,
-				ADEA017C20303A2B000C2FD2 /* coordijk.h in Headers */,
+				ADA089CD23F722DD009C362E /* polygon.h in Headers */,
+				ADA089CE23F722DD009C362E /* h3Index.h in Headers */,
+				ADA089DA23F722DD009C362E /* localij.h in Headers */,
+				ADA089D623F722DD009C362E /* vertexGraph.h in Headers */,
+				ADA089D223F722DD009C362E /* linkedGeo.h in Headers */,
+				ADA089D723F722DD009C362E /* mathExtensions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +237,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD4B83F12027C04900D116BA /* Build configuration list for PBXNativeTarget "h3-swift" */;
 			buildPhases = (
+				ADA0891323F72204009C362E /* ShellScript */,
 				AD4B83E42027C04800D116BA /* Sources */,
 				AD4B83E52027C04800D116BA /* Frameworks */,
 				AD4B83E62027C04800D116BA /* Headers */,
@@ -272,33 +291,55 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADEA014920303A2B000C2FD2 /* LICENSE in Resources */,
 				ADEA01E120303A2B000C2FD2 /* VERSION in Resources */,
-				ADEA012B20303A2B000C2FD2 /* CHANGELOG.md in Resources */,
+				ADA089DC23F722DD009C362E /* h3api.h.in in Resources */,
 				ADEA014A20303A2B000C2FD2 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		ADA0891323F72204009C362E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd h3\ncmake .\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AD4B83E42027C04800D116BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADEA019020303A2B000C2FD2 /* vec2d.c in Sources */,
-				ADEA018B20303A2B000C2FD2 /* geoCoord.c in Sources */,
-				ADEA018620303A2B000C2FD2 /* algos.c in Sources */,
-				ADEA018E20303A2B000C2FD2 /* linkedGeo.c in Sources */,
-				ADEA018820303A2B000C2FD2 /* bbox.c in Sources */,
-				ADEA018A20303A2B000C2FD2 /* faceijk.c in Sources */,
+				ADA089EA23F722DD009C362E /* faceijk.c in Sources */,
+				ADA089E523F722DD009C362E /* geoCoord.c in Sources */,
+				ADA089E223F722DD009C362E /* h3Index.c in Sources */,
+				ADA089E423F722DD009C362E /* linkedGeo.c in Sources */,
+				ADA089E623F722DD009C362E /* h3UniEdge.c in Sources */,
+				ADA089E823F722DD009C362E /* vec3d.c in Sources */,
+				ADA089E923F722DD009C362E /* vertexGraph.c in Sources */,
+				ADA089E323F722DD009C362E /* vec2d.c in Sources */,
+				ADA089DD23F722DD009C362E /* algos.c in Sources */,
+				ADA089EB23F722DD009C362E /* baseCells.c in Sources */,
+				ADA089E723F722DD009C362E /* mathExtensions.c in Sources */,
+				ADA089E023F722DD009C362E /* polygon.c in Sources */,
+				ADA089E123F722DD009C362E /* bbox.c in Sources */,
+				ADA089DE23F722DD009C362E /* localij.c in Sources */,
 				ADB917122030CCBD007CFF0B /* h3-swift.swift in Sources */,
-				ADEA018920303A2B000C2FD2 /* coordijk.c in Sources */,
-				ADEA018C20303A2B000C2FD2 /* h3Index.c in Sources */,
-				ADEA019120303A2B000C2FD2 /* vertexGraph.c in Sources */,
-				ADEA018F20303A2B000C2FD2 /* mathExtensions.c in Sources */,
-				ADEA018720303A2B000C2FD2 /* baseCells.c in Sources */,
-				ADEA018D20303A2B000C2FD2 /* h3UniEdge.c in Sources */,
+				ADA089DF23F722DD009C362E /* coordijk.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
